@@ -4310,7 +4310,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 100.33) (xy 53.34 100.33)
+			(xy 52.07 100.33) (xy 53.34 100.33)
 		)
 		(stroke
 			(width 0)
@@ -4979,8 +4979,8 @@
 		)
 	)
 	(global_label "T_IRQ"
-		(shape output)
-		(at 49.53 100.33 180)
+		(shape input)
+		(at 52.07 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4990,7 +4990,7 @@
 		)
 		(uuid "37b8e5eb-5c88-463e-a0c4-18ef1ac40860")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.4043 100.33 0)
+			(at 43.9443 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
