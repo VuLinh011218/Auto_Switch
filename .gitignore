@@ -1,0 +1,45 @@
+# ============================================================
+# smart_switch - Global Git Ignore
+# ============================================================
+
+
+# ============================================================
+# OS / System
+# ============================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.directory
+
+# ============================================================
+# KiCad / EDA
+# ============================================================
+
+# KiCad temporary / backup files
+**/Hardware/01_Design/*.bck
+**/Hardware/01_Design/*.kicad_prl
+**/Hardware/01_Design/*.bak
+**/Hardware/01_Design/*-backups/
+**/Hardware/01_Design/_autosave-*
+**/Hardware/01_Design/*.pcode
+**/Hardware/01_Design/*.rpts
+**/Hardware/01_Design/*.rpt
+
+# EDA restore / lock files
+**/_restore_backup_*/
+**/*.lck
+
+
+# ============================================================
+# Hardware - Temporary / Local
+# ============================================================
+**/Hardware/Temp/
