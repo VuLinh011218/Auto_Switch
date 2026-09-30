@@ -10,7 +10,7 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 83.82 54.61)
+		(at 134.62 52.07)
 		(size 35.56 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26,7 +26,7 @@
 		)
 		(uuid "0ff289fa-d23f-4175-b2f8-a37880cc06c5")
 		(property "Sheetname" "Power_Supply"
-			(at 83.82 53.8984 0)
+			(at 134.62 51.3584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39,7 +39,7 @@
 			)
 		)
 		(property "Sheetfile" "Power_Supply.kicad_sch"
-			(at 83.82 85.6746 0)
+			(at 134.62 83.1346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -54,13 +54,13 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29"
-					(page "2")
+					(page "3")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 83.82 111.76)
+		(at 106.68 109.22)
 		(size 35.56 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -76,7 +76,7 @@
 		)
 		(uuid "5b58c30c-6755-4d6d-94cb-17e3b576219f")
 		(property "Sheetname" "Input"
-			(at 83.82 111.0484 0)
+			(at 106.68 108.5084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -89,57 +89,7 @@
 			)
 		)
 		(property "Sheetfile" "Input.kicad_sch"
-			(at 83.82 142.8246 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Smart_Switch"
-				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 181.61 111.76)
-		(size 35.56 30.48)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "e23e8d10-1110-448c-9d06-55394e372240")
-		(property "Sheetname" "Output"
-			(at 181.61 111.0484 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Output.kicad_sch"
-			(at 181.61 142.8246 0)
+			(at 106.68 140.2846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -160,7 +110,107 @@
 		)
 	)
 	(sheet
-		(at 181.61 54.61)
+		(at 80.01 52.07)
+		(size 35.56 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e04ad0bf-1b24-4295-a0b5-a7ce5d0d21c7")
+		(property "Sheetname" "System_Diagram"
+			(at 80.01 51.3584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "System_Diagram.kicad_sch"
+			(at 80.01 83.1346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Smart_Switch"
+				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 162.56 109.22)
+		(size 35.56 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e23e8d10-1110-448c-9d06-55394e372240")
+		(property "Sheetname" "Output"
+			(at 162.56 108.5084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Output.kicad_sch"
+			(at 162.56 140.2846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Smart_Switch"
+				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 52.07)
 		(size 35.56 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -176,7 +226,7 @@
 		)
 		(uuid "e24e32b1-01f3-48d8-abfa-97cc7dec5684")
 		(property "Sheetname" "STM32"
-			(at 181.61 53.8984 0)
+			(at 190.5 51.3584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -189,7 +239,7 @@
 			)
 		)
 		(property "Sheetfile" "STM32.kicad_sch"
-			(at 181.61 85.6746 0)
+			(at 190.5 83.1346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -204,7 +254,7 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29"
-					(page "3")
+					(page "4")
 				)
 			)
 		)
