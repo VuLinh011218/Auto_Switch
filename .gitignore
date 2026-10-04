@@ -117,3 +117,5 @@ compile_commands.json
 # Hardware - Temporary / Local
 # ============================================================
 **/Hardware/Temp/
+**/Hardware/03_Bom/
+**/Hardware/04_Gerber/

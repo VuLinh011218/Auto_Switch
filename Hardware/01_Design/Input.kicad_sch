@@ -900,7 +900,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Measurement_Power_AC:SW_12x12mm_SMD"
+		(symbol "Measurement_Power_AC:SW_6x6mm"
 			(pin_names
 				(offset 1.016)
 			)
@@ -910,7 +910,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "SW"
-				(at -7.62 5.715 0)
+				(at -7.6329 5.5975 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -920,18 +920,18 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "SW_12x12mm_SMD"
-				(at -7.62 -5.715 0)
+			(property "Value" "SW_6x6mm"
+				(at -7.6341 -7.3796 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" "SW_12x12mm:SW_B3FS-4055P"
+			(property "Footprint" "Tactile_Switch_SMD:TE_FSM4JSMA"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -954,7 +954,7 @@
 					)
 				)
 			)
-			(property "Description" "Tactile Switch | Omron Electronic Components B3FS-4055P"
+			(property "Description" "Tactile Switch SPST-NO Top Actuated Surface Mount"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -977,7 +977,7 @@
 					)
 				)
 			)
-			(property "Supply part number" "Nút Nhấn 12x12mm Cao 10mm 4 Chân SMD"
+			(property "Supply part number" "Nút Nhấn 6x6mm Cao 4.3mm 4 Chân SMD"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -988,7 +988,7 @@
 					)
 				)
 			)
-			(property "Supply URL" "https://www.thegioiic.com/nut-nhan-12x12mm-cao-10mm-4-chan-smd"
+			(property "Supply URL" "https://www.thegioiic.com/nut-nhan-6x6mm-cao-4-3mm-4-chan-smd"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -999,36 +999,12 @@
 					)
 				)
 			)
-			(symbol "SW_12x12mm_SMD_0_0"
-				(polyline
-					(pts
-						(xy -7.62 2.54) (xy -5.08 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 -2.54) (xy -5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "SW_6x6mm_0_0"
 				(rectangle
-					(start -7.62 -5.08)
-					(end 7.62 5.08)
+					(start -7.62 5.08)
+					(end 5.08 -5.08)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -1037,10 +1013,10 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 -2.54) (xy -5.08 2.54)
+						(xy -6.35 0) (xy -6.35 2.54)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -1049,10 +1025,10 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 0) (xy -5.08 0)
+						(xy -6.35 0) (xy -6.35 -2.54)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -1061,10 +1037,22 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 0) (xy 2.794 2.1336)
+						(xy -2.6035 0) (xy -6.35 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.6035 0) (xy -0.127 1.0795)
+					)
+					(stroke
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -1072,10 +1060,10 @@
 					)
 				)
 				(circle
-					(center 2.54 0)
-					(radius 0.3302)
+					(center -2.54 0)
+					(radius 0.254)
 					(stroke
-						(width 0.254)
+						(width 0.508)
 						(type default)
 					)
 					(fill
@@ -1084,10 +1072,21 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 0) (xy 2.921 0)
+						(xy -0.127 0) (xy 3.81 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.254)
+					(stroke
+						(width 0.508)
 						(type default)
 					)
 					(fill
@@ -1096,10 +1095,10 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -2.54) (xy 5.08 2.54)
+						(xy 3.81 2.54) (xy 3.81 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -1108,22 +1107,10 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 2.54) (xy 5.08 2.54)
+						(xy 3.81 0) (xy 3.81 -2.54)
 					)
 					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -1131,7 +1118,7 @@
 					)
 				)
 				(pin passive line
-					(at -12.7 -2.54 0)
+					(at -11.43 2.54 0)
 					(length 5.08)
 					(name ""
 						(effects
@@ -1149,7 +1136,7 @@
 					)
 				)
 				(pin passive line
-					(at -12.7 2.54 0)
+					(at -11.43 -2.54 0)
 					(length 5.08)
 					(name ""
 						(effects
@@ -1167,7 +1154,7 @@
 					)
 				)
 				(pin passive line
-					(at 12.7 -2.54 180)
+					(at 8.89 2.54 180)
 					(length 5.08)
 					(name ""
 						(effects
@@ -1185,7 +1172,7 @@
 					)
 				)
 				(pin passive line
-					(at 12.7 2.54 180)
+					(at 8.89 -2.54 180)
 					(length 5.08)
 					(name ""
 						(effects
@@ -2076,7 +2063,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 74.93) (xy 60.96 74.93)
+			(xy 52.07 74.93) (xy 63.5 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2093,16 +2080,6 @@
 			(type default)
 		)
 		(uuid "0206c6e7-35ea-46d0-899a-e0efe8893232")
-	)
-	(wire
-		(pts
-			(xy 86.36 118.11) (xy 92.71 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "092eb599-d74d-4a75-b131-9adced4e07bc")
 	)
 	(wire
 		(pts
@@ -2126,7 +2103,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 113.03) (xy 57.15 113.03)
+			(xy 57.15 113.03) (xy 63.5 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2203,6 +2180,16 @@
 			(type default)
 		)
 		(uuid "2af5ee13-a5f9-449f-924b-f5fde2536385")
+	)
+	(wire
+		(pts
+			(xy 148.59 69.85) (xy 157.48 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ee469fe-6433-477e-821e-6205a1da8ec0")
 	)
 	(wire
 		(pts
@@ -2336,6 +2323,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 113.03) (xy 92.71 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "639459f2-5a88-431d-8417-07c7f047fdda")
+	)
+	(wire
+		(pts
 			(xy 142.24 129.54) (xy 157.48 129.54)
 		)
 		(stroke
@@ -2346,7 +2343,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 113.03) (xy 121.92 113.03)
+			(xy 121.92 113.03) (xy 128.27 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2376,7 +2373,17 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 69.85) (xy 57.15 69.85)
+			(xy 83.82 74.93) (xy 92.71 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6926cd83-8872-44b7-8b6c-2b668b26c1b2")
+	)
+	(wire
+		(pts
+			(xy 57.15 69.85) (xy 63.5 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2416,7 +2423,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 118.11) (xy 125.73 118.11)
+			(xy 116.84 118.11) (xy 128.27 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2456,23 +2463,13 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 69.85) (xy 157.48 69.85)
+			(xy 148.59 113.03) (xy 157.48 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "79324cac-856c-4095-b835-0977ff5d9690")
-	)
-	(wire
-		(pts
-			(xy 151.13 74.93) (xy 157.48 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ba81f4f-2550-456d-a175-96224dcb4703")
+		(uuid "740c4c2b-60d8-4269-ba5f-4e46fb41c107")
 	)
 	(wire
 		(pts
@@ -2516,6 +2513,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 118.11) (xy 157.48 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "878d6c7c-832e-4d12-8d89-8f396540d12c")
+	)
+	(wire
+		(pts
 			(xy 238.76 119.38) (xy 238.76 124.46)
 		)
 		(stroke
@@ -2523,16 +2530,6 @@
 			(type default)
 		)
 		(uuid "8df6fe27-481f-4481-bd80-2f8cfe7d5d53")
-	)
-	(wire
-		(pts
-			(xy 86.36 74.93) (xy 92.71 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90bab1be-3261-4b6e-9d73-fa054331afb5")
 	)
 	(wire
 		(pts
@@ -2546,7 +2543,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 118.11) (xy 60.96 118.11)
+			(xy 52.07 118.11) (xy 63.5 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2586,16 +2583,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 113.03) (xy 92.71 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abf0be17-dd95-400a-8f67-85444f97d2e2")
-	)
-	(wire
-		(pts
 			(xy 92.71 129.54) (xy 92.71 132.08)
 		)
 		(stroke
@@ -2626,6 +2613,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 118.11) (xy 92.71 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b91fe998-d874-4281-8aca-a7b614504d04")
+	)
+	(wire
+		(pts
 			(xy 157.48 129.54) (xy 157.48 132.08)
 		)
 		(stroke
@@ -2636,7 +2633,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 74.93) (xy 125.73 74.93)
+			(xy 116.84 74.93) (xy 128.27 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2646,13 +2643,13 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 69.85) (xy 92.71 69.85)
+			(xy 148.59 74.93) (xy 157.48 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c8e5c99e-73b2-44c8-aba1-11bd2373326f")
+		(uuid "bfe24bf8-f69f-4ee3-a50d-d52803950211")
 	)
 	(wire
 		(pts
@@ -2686,7 +2683,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 69.85) (xy 121.92 69.85)
+			(xy 121.92 69.85) (xy 128.27 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2716,16 +2713,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 113.03) (xy 157.48 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d57d5fde-1128-40eb-a019-d448fb456a9f")
-	)
-	(wire
-		(pts
 			(xy 248.92 116.84) (xy 248.92 114.3)
 		)
 		(stroke
@@ -2733,16 +2720,6 @@
 			(type default)
 		)
 		(uuid "e7b6dfac-c533-4dcd-94ef-8fd95ca0863c")
-	)
-	(wire
-		(pts
-			(xy 151.13 118.11) (xy 157.48 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed92b739-b0b1-4c29-9195-331b9240f57e")
 	)
 	(wire
 		(pts
@@ -2793,6 +2770,16 @@
 			(type default)
 		)
 		(uuid "fd26d09a-787d-47f9-b9f7-184c878787a0")
+	)
+	(wire
+		(pts
+			(xy 83.82 69.85) (xy 92.71 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff7c8e06-5196-467c-9941-92fbe90c24ac")
 	)
 	(global_label "PIR"
 		(shape output)
@@ -3010,7 +2997,7 @@
 			)
 		)
 	)
-	(global_label "LDR_A0"
+	(global_label "LDR"
 		(shape output)
 		(at 250.19 121.92 180)
 		(fields_autoplaced yes)
@@ -3022,7 +3009,7 @@
 		)
 		(uuid "e7ea0f3a-6a1f-4482-a8e4-d802b84150a6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 240.371 121.92 0)
+			(at 243.6367 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3094,7 +3081,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04dc0bde-cf4a-4a57-964f-975c67fc3881")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR051"
 			(at 238.76 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -3154,7 +3141,7 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/5b58c30c-6755-4d6d-94cb-17e3b576219f"
-					(reference "#PWR055")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -3172,7 +3159,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "051689bf-ba09-4736-866e-98437b3a6886")
-		(property "Reference" "J3"
+		(property "Reference" "J5"
 			(at 264.16 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3333,7 +3320,7 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/5b58c30c-6755-4d6d-94cb-17e3b576219f"
-					(reference "J3")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -3351,7 +3338,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0fb95aad-93bb-4762-81cb-4c861938a956")
-		(property "Reference" "C27"
+		(property "Reference" "C22"
 			(at 73.66 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3490,7 +3477,7 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/5b58c30c-6755-4d6d-94cb-17e3b576219f"
-					(reference "C27")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -3507,7 +3494,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1373efbb-3d5a-4d2e-8079-a02dcbf08d97")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR042"
 			(at 116.84 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3567,7 +3554,7 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/5b58c30c-6755-4d6d-94cb-17e3b576219f"
-					(reference "#PWR045")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -3585,7 +3572,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1acf89d6-46b9-4ad3-a8ea-1c8c012932c6")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR049"
 			(at 195.58 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -3645,7 +3632,7 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/5b58c30c-6755-4d6d-94cb-17e3b576219f"
-					(reference "#PWR048")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -3662,7 +3649,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "223ecd9c-9f5f-4068-998d-81ee7dff9d9a")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR038"
 			(at 52.07 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3722,7 +3709,7 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/5b58c30c-6755-4d6d-94cb-17e3b576219f"
-					(reference "#PWR044")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -3739,7 +3726,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "27938ced-d1c5-4e18-934b-db76571490a2")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR048"
 			(at 195.58 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3799,7 +3786,7 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/5b58c30c-6755-4d6d-94cb-17e3b576219f"
-					(reference "#PWR046")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -3816,7 +3803,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2c9569fd-6c3d-458f-b3a8-1408c1841ddc")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR043"
 			(at 116.84 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -3876,7 +3863,7 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/5b58c30c-6755-4d6d-94cb-17e3b576219f"
-					(reference "#PWR052")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -3894,7 +3881,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2dfc1661-a651-4954-a2ce-fe25480892be")
-		(property "Reference" "R17"
+		(property "Reference" "R15"
 			(at 114.3 110.4899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4035,7 +4022,7 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/5b58c30c-6755-4d6d-94cb-17e3b576219f"
-					(reference "R17")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -4053,7 +4040,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ed38890-d8bc-42b0-a6a7-2dc9c444d4d4")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR045"
 			(at 157.48 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -4113,7 +4100,7 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/5b58c30c-6755-4d6d-94cb-17e3b576219f"
-					(reference "#PWR058")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -4130,7 +4117,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3044ec7f-5d5c-4dfc-9838-09e5625293b8")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR050"
 			(at 208.28 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -4190,128 +4177,7 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/5b58c30c-6755-4d6d-94cb-17e3b576219f"
-					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Measurement_Power_AC:SW_12x12mm_SMD")
-		(at 73.66 72.39 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "343ca2e0-4211-4897-9114-ef0f021a56e4")
-		(property "Reference" "SW2"
-			(at 73.66 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_12x12mm_SMD"
-			(at 73.66 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SW_12x12mm:SW_B3FS-4055P"
-			(at 73.66 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Tactile Switch | Omron Electronic Components B3FS-4055P"
-			(at 73.66 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Supply name" "Thegioiic"
-			(at 73.66 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supply part number" "Nút Nhấn 12x12mm Cao 10mm 4 Chân SMD"
-			(at 73.66 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supply URL" "https://www.thegioiic.com/nut-nhan-12x12mm-cao-10mm-4-chan-smd"
-			(at 73.66 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "fbd6faf9-ca8a-44da-9e29-e9d653a27c52")
-		)
-		(pin "3"
-			(uuid "04d161b6-e1b5-46a0-84ec-3fc1b98a84a3")
-		)
-		(pin "4"
-			(uuid "4b51200a-d7f4-4de6-b4f3-fd297cdfc9ce")
-		)
-		(pin "1"
-			(uuid "e20fb574-5c58-48db-82ab-41d8523e7faf")
-		)
-		(instances
-			(project "Smart_Switch"
-				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/5b58c30c-6755-4d6d-94cb-17e3b576219f"
-					(reference "SW2")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -4329,7 +4195,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "348029db-b68c-4e45-87f7-cd7b227a9c15")
-		(property "Reference" "R15"
+		(property "Reference" "R16"
 			(at 210.82 63.4999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4470,7 +4336,7 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/5b58c30c-6755-4d6d-94cb-17e3b576219f"
-					(reference "R15")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -4488,7 +4354,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3c089302-0d7e-44d0-9ea3-ecf494604885")
-		(property "Reference" "R13"
+		(property "Reference" "R12"
 			(at 49.53 67.3099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4629,128 +4495,7 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/5b58c30c-6755-4d6d-94cb-17e3b576219f"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Measurement_Power_AC:SW_12x12mm_SMD")
-		(at 138.43 72.39 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3e229c25-5400-473f-b43a-d507d42cfafb")
-		(property "Reference" "SW3"
-			(at 138.43 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_12x12mm_SMD"
-			(at 138.43 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SW_12x12mm:SW_B3FS-4055P"
-			(at 138.43 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Tactile Switch | Omron Electronic Components B3FS-4055P"
-			(at 138.43 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Supply name" "Thegioiic"
-			(at 138.43 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supply part number" "Nút Nhấn 12x12mm Cao 10mm 4 Chân SMD"
-			(at 138.43 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supply URL" "https://www.thegioiic.com/nut-nhan-12x12mm-cao-10mm-4-chan-smd"
-			(at 138.43 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2a554bb5-1e25-4281-81e9-74e91136f197")
-		)
-		(pin "3"
-			(uuid "b17d776d-787b-4d9d-a1aa-22a4db281b6d")
-		)
-		(pin "4"
-			(uuid "c0932c28-301f-4b4b-b2ad-703314b94493")
-		)
-		(pin "1"
-			(uuid "c25139ae-cad2-4640-80ab-4d32c318ba11")
-		)
-		(instances
-			(project "Smart_Switch"
-				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/5b58c30c-6755-4d6d-94cb-17e3b576219f"
-					(reference "SW3")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -4767,7 +4512,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "49bf14a6-f02a-4b0c-9d83-c011417ed48d")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR046"
 			(at 193.04 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4827,7 +4572,7 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/5b58c30c-6755-4d6d-94cb-17e3b576219f"
-					(reference "#PWR054")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -4845,7 +4590,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c058cdc-eebe-4ef5-888c-e645c4f2ef84")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 189.23 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4992,15 +4737,15 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/5b58c30c-6755-4d6d-94cb-17e3b576219f"
-					(reference "U4")
+					(reference "U3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Measurement_Power_AC:SW_12x12mm_SMD")
-		(at 138.43 115.57 0)
+		(lib_id "Measurement_Power_AC:SW_6x6mm")
+		(at 139.7 115.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5009,7 +4754,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4f47da69-10e0-4a32-9a3d-290c7c400f04")
+		(uuid "534aa17a-2789-4263-b5ca-010146dfb6d6")
 		(property "Reference" "SW5"
 			(at 138.43 105.41 0)
 			(show_name no)
@@ -5020,7 +4765,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_12x12mm_SMD"
+		(property "Value" "SW_6x6mm"
 			(at 138.43 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5030,8 +4775,8 @@
 				)
 			)
 		)
-		(property "Footprint" "SW_12x12mm:SW_B3FS-4055P"
-			(at 138.43 115.57 0)
+		(property "Footprint" "Tactile_Switch_SMD:TE_FSM4JSMA"
+			(at 139.7 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5043,7 +4788,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 115.57 0)
+			(at 139.7 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5053,8 +4798,8 @@
 				)
 			)
 		)
-		(property "Description" "Tactile Switch | Omron Electronic Components B3FS-4055P"
-			(at 138.43 115.57 0)
+		(property "Description" "Tactile Switch SPST-NO Top Actuated Surface Mount"
+			(at 139.7 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5066,7 +4811,7 @@
 			)
 		)
 		(property "Supply name" "Thegioiic"
-			(at 138.43 115.57 0)
+			(at 139.7 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5076,8 +4821,8 @@
 				)
 			)
 		)
-		(property "Supply part number" "Nút Nhấn 12x12mm Cao 10mm 4 Chân SMD"
-			(at 138.43 115.57 0)
+		(property "Supply part number" "Nút Nhấn 6x6mm Cao 4.3mm 4 Chân SMD"
+			(at 139.7 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5087,8 +4832,8 @@
 				)
 			)
 		)
-		(property "Supply URL" "https://www.thegioiic.com/nut-nhan-12x12mm-cao-10mm-4-chan-smd"
-			(at 138.43 115.57 0)
+		(property "Supply URL" "https://www.thegioiic.com/nut-nhan-6x6mm-cao-4-3mm-4-chan-smd"
+			(at 139.7 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5097,18 +4842,18 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "b7404402-a9d6-4adc-82cd-2fd9093aa599")
-		)
-		(pin "3"
-			(uuid "67d0e197-3c1b-4f37-925c-0b88499f9ff5")
 		)
 		(pin "4"
-			(uuid "458b033c-035d-45cc-83cc-7f36a0f93564")
+			(uuid "5adff585-ae98-4bdf-b261-1f1fbfa11b57")
+		)
+		(pin "2"
+			(uuid "a3971120-a35c-426d-9ee8-0ce16486e5a8")
+		)
+		(pin "3"
+			(uuid "69abc952-c9cf-4cf8-abec-c82aaf2ea621")
 		)
 		(pin "1"
-			(uuid "4f5c6e04-b1b3-476b-8f55-bede14297815")
+			(uuid "5082be59-d7b4-4fa0-a585-d513d013c7e4")
 		)
 		(instances
 			(project "Smart_Switch"
@@ -5131,7 +4876,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "571f2f59-45e4-4311-8e73-a70910f454a3")
-		(property "Reference" "C28"
+		(property "Reference" "C24"
 			(at 138.43 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5270,15 +5015,15 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/5b58c30c-6755-4d6d-94cb-17e3b576219f"
-					(reference "C28")
+					(reference "C24")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Measurement_Power_AC:SW_12x12mm_SMD")
-		(at 73.66 115.57 0)
+		(lib_id "Measurement_Power_AC:SW_6x6mm")
+		(at 74.93 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5287,9 +5032,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5ba71688-8e2c-43d4-908e-2aefcf3052d7")
-		(property "Reference" "SW4"
-			(at 73.66 105.41 0)
+		(uuid "682690e3-b809-4b94-8fcd-47536f776fcf")
+		(property "Reference" "SW2"
+			(at 73.66 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5298,8 +5043,8 @@
 				)
 			)
 		)
-		(property "Value" "SW_12x12mm_SMD"
-			(at 73.66 107.95 0)
+		(property "Value" "SW_6x6mm"
+			(at 73.66 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5308,8 +5053,8 @@
 				)
 			)
 		)
-		(property "Footprint" "SW_12x12mm:SW_B3FS-4055P"
-			(at 73.66 115.57 0)
+		(property "Footprint" "Tactile_Switch_SMD:TE_FSM4JSMA"
+			(at 74.93 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5321,7 +5066,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 115.57 0)
+			(at 74.93 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5331,8 +5076,8 @@
 				)
 			)
 		)
-		(property "Description" "Tactile Switch | Omron Electronic Components B3FS-4055P"
-			(at 73.66 115.57 0)
+		(property "Description" "Tactile Switch SPST-NO Top Actuated Surface Mount"
+			(at 74.93 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5344,7 +5089,7 @@
 			)
 		)
 		(property "Supply name" "Thegioiic"
-			(at 73.66 115.57 0)
+			(at 74.93 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5354,8 +5099,8 @@
 				)
 			)
 		)
-		(property "Supply part number" "Nút Nhấn 12x12mm Cao 10mm 4 Chân SMD"
-			(at 73.66 115.57 0)
+		(property "Supply part number" "Nút Nhấn 6x6mm Cao 4.3mm 4 Chân SMD"
+			(at 74.93 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5365,8 +5110,8 @@
 				)
 			)
 		)
-		(property "Supply URL" "https://www.thegioiic.com/nut-nhan-12x12mm-cao-10mm-4-chan-smd"
-			(at 73.66 115.57 0)
+		(property "Supply URL" "https://www.thegioiic.com/nut-nhan-6x6mm-cao-4-3mm-4-chan-smd"
+			(at 74.93 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5375,23 +5120,23 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "7a168d79-dcc2-4ff1-8160-7d47702837d3")
-		)
-		(pin "3"
-			(uuid "1a1c28af-5da6-4dbc-ad91-641df2c39c97")
 		)
 		(pin "4"
-			(uuid "3ca07d00-ce04-41c0-8e0e-141488774ff2")
+			(uuid "b0cf5f13-4a1b-42a6-aa14-80cfdba91421")
+		)
+		(pin "2"
+			(uuid "62e00f58-82a4-4468-b9c0-7b3d50b8d4c9")
+		)
+		(pin "3"
+			(uuid "b4595ab1-834c-443b-a806-5af405c31412")
 		)
 		(pin "1"
-			(uuid "513d4d78-f7e8-4c02-85b5-4c91f1df4b41")
+			(uuid "239427f1-2aee-4d9d-986b-fb5060174a4f")
 		)
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/5b58c30c-6755-4d6d-94cb-17e3b576219f"
-					(reference "SW4")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -5409,7 +5154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "740ff42e-319b-4c75-be18-6c63ea63886e")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR040"
 			(at 92.71 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -5469,7 +5214,7 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/5b58c30c-6755-4d6d-94cb-17e3b576219f"
-					(reference "#PWR049")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -5486,7 +5231,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "798b77d3-6f78-406f-9b4b-11af8d6e23ed")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR052"
 			(at 248.92 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -5546,7 +5291,7 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/5b58c30c-6755-4d6d-94cb-17e3b576219f"
-					(reference "#PWR053")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -5723,7 +5468,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8392e05c-4125-45d4-95b9-481f01600734")
-		(property "Reference" "C25"
+		(property "Reference" "C21"
 			(at 73.66 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5862,7 +5607,7 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/5b58c30c-6755-4d6d-94cb-17e3b576219f"
-					(reference "C25")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -5880,7 +5625,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "884f32e4-9575-40a8-bdb3-e02f0d101ab2")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR044"
 			(at 157.48 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -5940,7 +5685,7 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/5b58c30c-6755-4d6d-94cb-17e3b576219f"
-					(reference "#PWR050")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -5958,7 +5703,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8cf4ea7c-e073-417b-89a6-4b40def5c165")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR047"
 			(at 193.04 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -6018,7 +5763,7 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/5b58c30c-6755-4d6d-94cb-17e3b576219f"
-					(reference "#PWR056")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -6197,7 +5942,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bbaeb9c6-a936-49ff-8b60-09670737a844")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR039"
 			(at 52.07 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -6257,7 +6002,7 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/5b58c30c-6755-4d6d-94cb-17e3b576219f"
-					(reference "#PWR051")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -6275,7 +6020,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c135f399-d6c0-4148-ad06-1a5fe7e938ea")
-		(property "Reference" "C26"
+		(property "Reference" "C23"
 			(at 138.43 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6414,7 +6159,128 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/5b58c30c-6755-4d6d-94cb-17e3b576219f"
-					(reference "C26")
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Measurement_Power_AC:SW_6x6mm")
+		(at 139.7 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c337042d-bae7-492e-b915-c8535f62002d")
+		(property "Reference" "SW4"
+			(at 138.43 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_6x6mm"
+			(at 138.43 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Tactile_Switch_SMD:TE_FSM4JSMA"
+			(at 139.7 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Tactile Switch SPST-NO Top Actuated Surface Mount"
+			(at 139.7 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Supply name" "Thegioiic"
+			(at 139.7 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply part number" "Nút Nhấn 6x6mm Cao 4.3mm 4 Chân SMD"
+			(at 139.7 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply URL" "https://www.thegioiic.com/nut-nhan-6x6mm-cao-4-3mm-4-chan-smd"
+			(at 139.7 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "4e3f9520-feb7-4be7-9afd-1af43c136414")
+		)
+		(pin "2"
+			(uuid "2f62c5a0-84db-4f3e-a2d4-6717394a3c4a")
+		)
+		(pin "3"
+			(uuid "88bbdff2-bd4e-46e7-bdda-fbc93ae54594")
+		)
+		(pin "1"
+			(uuid "ad0d99bf-112c-473a-8676-3bf3fd7ac99b")
+		)
+		(instances
+			(project "Smart_Switch"
+				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/5b58c30c-6755-4d6d-94cb-17e3b576219f"
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -6432,7 +6298,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d1c004fe-3093-4cd5-9b8c-86c3c4ae21f3")
-		(property "Reference" "R16"
+		(property "Reference" "R13"
 			(at 49.53 110.4899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6573,7 +6439,7 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/5b58c30c-6755-4d6d-94cb-17e3b576219f"
-					(reference "R16")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -6591,7 +6457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0277412-f173-4a55-8b5d-bdb77bbd2035")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR041"
 			(at 92.71 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -6651,7 +6517,7 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/5b58c30c-6755-4d6d-94cb-17e3b576219f"
-					(reference "#PWR057")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -6669,7 +6535,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec276c4e-3dbc-4c90-879e-0195e5073063")
-		(property "Reference" "J5"
+		(property "Reference" "J3"
 			(at 204.47 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6813,7 +6679,128 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/5b58c30c-6755-4d6d-94cb-17e3b576219f"
-					(reference "J5")
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Measurement_Power_AC:SW_6x6mm")
+		(at 74.93 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5cd8baf-07bf-44b1-9e0f-db063fd42a78")
+		(property "Reference" "SW3"
+			(at 73.66 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_6x6mm"
+			(at 73.66 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Tactile_Switch_SMD:TE_FSM4JSMA"
+			(at 74.93 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Tactile Switch SPST-NO Top Actuated Surface Mount"
+			(at 74.93 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Supply name" "Thegioiic"
+			(at 74.93 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply part number" "Nút Nhấn 6x6mm Cao 4.3mm 4 Chân SMD"
+			(at 74.93 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply URL" "https://www.thegioiic.com/nut-nhan-6x6mm-cao-4-3mm-4-chan-smd"
+			(at 74.93 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "925fe703-4059-4ba0-800a-db8cbe54b656")
+		)
+		(pin "2"
+			(uuid "5f3a9bc5-9ef3-40c2-a1cd-614870d4c864")
+		)
+		(pin "3"
+			(uuid "72e4a1aa-9b37-42c1-a06f-5d92e31f4881")
+		)
+		(pin "1"
+			(uuid "0f953d90-2dd9-4dd6-941c-9c05a88f7418")
+		)
+		(instances
+			(project "Smart_Switch"
+				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/5b58c30c-6755-4d6d-94cb-17e3b576219f"
+					(reference "SW3")
 					(unit 1)
 				)
 			)
