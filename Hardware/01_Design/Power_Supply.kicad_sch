@@ -5,191 +5,6 @@
 	(uuid "1c7b6553-36e1-4d52-8f68-ebee06fc7ad6")
 	(paper "A4")
 	(lib_symbols
-		(symbol "DongKhoa:AMS1117-3.3"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U2"
-				(at 5.08 11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "AMS1117-3.3"
-				(at 5.08 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
-				(at 2.54 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supply name" "Thegioiic"
-				(at 5.08 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supply part number" "AMS1117-3.3V IC Ổn Áp 3.3V 1A SOT-223"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supply URL" "https://www.thegioiic.com/ams1117-3-3v-ic-on-ap-3-3v-1a-sot-223"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "linear regulator ldo fixed positive"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOT?223*TabPin2*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "AMS1117-3.3_0_1"
-				(rectangle
-					(start 0 0)
-					(end 10.16 6.985)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "AMS1117-3.3_1_1"
-				(pin power_in line
-					(at 5.08 -2.54 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 12.7 5.08 180)
-					(length 2.54)
-					(name "VO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 5.08 0)
-					(length 2.54)
-					(name "VI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "DongKhoa:Ceramic_Cap_1206_47uF_16V"
 			(pin_numbers
 				(hide yes)
@@ -543,203 +358,6 @@
 				)
 				(pin unspecified line
 					(at 6.35 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "DongKhoa:Ceramic_Cap_SMD_0603_10uF_16V"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 2.286 2.794 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "10uF/16V"
-				(at 0.254 5.334 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Measure_Power_AC:Ceramic_Cap_0603"
-				(at -0.254 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.mouser.vn/datasheet/2/40/KYOCERA_AutoMLCCKAM-3106308.pdf"
-				(at 0.254 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "10%, 0603 (1608 Metric)"
-				(at 1.016 5.588 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supply name" "Thegioiic"
-				(at 1.27 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supply part number" "Tụ Gốm 0603 10uF 16V"
-				(at 1.27 5.588 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supply URL" "https://www.thegioiic.com/tu-gom-0603-10uf-16v"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Ceramic_Cap_SMD_10uF_16V"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Ceramic_Cap_SMD_0603_10uF_16V_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 3.4798 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.4798 -1.905) (xy 3.4798 1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.1148 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.1148 -1.905) (xy 4.1148 1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 0 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -1153,51 +771,42 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "DongKhoa:Ceramic_Cap_SMD_1uF_16V"
+		(symbol "DongKhoa:FerriteBead_2A_120R_Small"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(hide yes)
+				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 2.286 2.794 0)
+			(property "Reference" "FB"
+				(at 1.905 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "1uF/16V"
-				(at 0.254 5.334 0)
+			(property "Value" "2A_120R"
+				(at 1.905 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "Measure_Power_AC:Ceramic_Cap_0603"
-				(at -0.254 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.mouser.vn/datasheet/2/40/KYOCERA_AutoMLCCKAM-3106308.pdf"
-				(at 0.254 5.08 0)
+			(property "Footprint" "Measure_Power_AC:FB_0805"
+				(at -1.778 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1207,51 +816,7 @@
 					)
 				)
 			)
-			(property "Description" "10%, 0603 (1608 Metric)"
-				(at 1.016 5.588 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supply name" "Thegioiic"
-				(at 1.27 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supply part number" "Tụ Gốm 0603 1uF 16V"
-				(at 1.27 5.588 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supply URL" "https://www.thegioiic.com/tu-gom-0603-1uf-16v"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Ceramic_Cap_SMD_10uF_16V"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1262,13 +827,79 @@
 					)
 				)
 			)
-			(symbol "Ceramic_Cap_SMD_1uF_16V_1_1"
+			(property "Description" "Ferrite bead, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supply name" "Thegioiic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supply part number" "CBW201209U121T "
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supply URL" "https://www.thegioiic.com/cbw201209u121t-ferrite-beads-2a-120-ohm-0805"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "L ferrite bead inductor filter"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "FerriteBead_2A_120R_Small_0_1"
 				(polyline
 					(pts
-						(xy 2.54 0) (xy 3.4798 0)
+						(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1277,10 +908,10 @@
 				)
 				(polyline
 					(pts
-						(xy 3.4798 -1.905) (xy 3.4798 1.905)
+						(xy 0 0.889) (xy 0 1.2954)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1289,31 +920,21 @@
 				)
 				(polyline
 					(pts
-						(xy 4.1148 0) (xy 5.08 0)
+						(xy 0 -1.27) (xy 0 -0.7874)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 4.1148 -1.905) (xy 4.1148 1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 2.54)
+			)
+			(symbol "FerriteBead_2A_120R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.27)
 					(name ""
 						(effects
 							(font
@@ -1329,9 +950,9 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 7.62 0 180)
-					(length 2.54)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.27)
 					(name ""
 						(effects
 							(font
@@ -2215,217 +1836,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "DongKhoa:Res_1K_0603_1%"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 3.556 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1K/1%/1_10W"
-				(at 4.064 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Measure_Power_AC:Res_0603"
-				(at 18.288 -15.494 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/esr-e.pdf"
-				(at 7.62 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Res 1 KOhm 0603 1%"
-				(at 13.716 -16.002 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supply name" "Thegioiic"
-				(at 19.304 -15.748 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supply part number" "Điện Trở 1 KOhm 0603 1%"
-				(at 20.32 -15.494 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supply URL" "https://www.thegioiic.com/dien-tro-1-kohm-0603-1-"
-				(at 27.432 -16.764 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Res_1K_0603_1%"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Res_1K_0603_1%_0_1"
-				(polyline
-					(pts
-						(xy 1.524 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 0) (xy 1.905 1.016) (xy 2.286 0) (xy 2.667 -1.016) (xy 3.048 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 0) (xy 3.429 1.016) (xy 3.81 0) (xy 4.191 -1.016) (xy 4.572 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.572 0) (xy 4.953 1.016) (xy 5.334 0) (xy 5.715 -1.016) (xy 6.096 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.096 0) (xy 6.35 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Res_1K_0603_1%_1_1"
-				(pin passive line
-					(at 0 0 0)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "DongKhoa:Res_2.49K_0603_1%"
 			(pin_numbers
 				(hide yes)
@@ -2996,6 +2406,192 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Measurement_Power_AC:Ceramic_Cap_SMD_0603_1nF_50V"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 1.016 2.794 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1nF/50V"
+				(at 0.254 5.334 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Measure_Power_AC:Ceramic_Cap_0603"
+				(at -0.254 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.vn/datasheet/2/40/KYOCERA_AutoMLCCKAM-3106308.pdf"
+				(at 0.254 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "10%, 0603 (1608 Metric)"
+				(at 1.016 5.588 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supply name" "Thegioiic"
+				(at 1.27 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supply part number" "Tụ Gốm 0603 1nF 50V"
+				(at 1.27 5.588 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supply URL" "https://www.thegioiic.com/tu-gom-0603-1nf-50v"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Ceramic_Cap_SMD_0603_1nF_50V_1_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.2098 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.2098 -1.905) (xy 2.2098 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.8448 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.8448 -1.905) (xy 2.8448 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -1.27 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Measurement_Power_AC:Ceramic_Cap_SMD_10nF_50V"
 			(pin_numbers
 				(hide yes)
@@ -3193,193 +2789,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Measurement_Power_AC:Ceramic_Cap_SMD_39pF_50V"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 1.016 2.794 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "39pF/50V"
-				(at 0.254 5.334 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "charge_battery_footprint_lib:Ceramic_Cap_0603"
-				(at -0.254 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0.254 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "10%, 0603 (1608 Metric)"
-				(at 1.016 5.588 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supply name" "Thegioiic"
-				(at 1.27 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supply part number" "Tụ Gốm 0603 39pF 50V"
-				(at 1.27 5.588 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supply URL" "https://www.thegioiic.com/tu-gom-0603-39pf-50v"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Ceramic_Cap_SMD_39pF_50V_1_1"
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 2.2098 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.2098 -1.905) (xy 2.2098 1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.8448 0) (xy 3.81 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.8448 -1.905) (xy 2.8448 1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -1.27 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 6.35 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Measurement_Power_AC:Ceramic_Cap_SMD_4.7nF_50V"
+		(symbol "Measurement_Power_AC:Ceramic_Cap_SMD_47pF_50V"
 			(pin_numbers
 				(hide yes)
 			)
@@ -3401,7 +2811,7 @@
 					)
 				)
 			)
-			(property "Value" "4.7nF/50V"
+			(property "Value" "47pF/50V"
 				(at 0.254 5.334 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3411,7 +2821,7 @@
 					)
 				)
 			)
-			(property "Footprint" "charge_battery_footprint_lib:Ceramic_Cap_0603"
+			(property "Footprint" "Measure_Power_AC:Ceramic_Cap_0603"
 				(at -0.254 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3422,7 +2832,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.mouser.vn/datasheet/2/40/KYOCERA_AutoMLCCKAM-3106308.pdf"
 				(at 0.254 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3455,7 +2865,7 @@
 					)
 				)
 			)
-			(property "Supply part number" "Tụ Gốm 0603 4.7nF 50V"
+			(property "Supply part number" "Tụ Gốm 0603 47pF 50V"
 				(at 1.27 5.588 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3466,7 +2876,7 @@
 					)
 				)
 			)
-			(property "Supply URL" "https://www.thegioiic.com/tu-gom-0603-4-7nf-50v"
+			(property "Supply URL" "https://www.thegioiic.com/tu-gom-0603-47pf-50v"
 				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3477,7 +2887,18 @@
 					)
 				)
 			)
-			(symbol "Ceramic_Cap_SMD_4.7nF_50V_1_1"
+			(property "ki_keywords" "Ceramic_Cap_SMD_47pF_50V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Ceramic_Cap_SMD_47pF_50V_1_1"
 				(polyline
 					(pts
 						(xy 2.54 0) (xy 3.4798 0)
@@ -4346,217 +3767,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Measurement_Power_AC:Res_2.49K_0603_1%"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 3.556 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "2.49K/1%/1_10W"
-				(at 4.064 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Measure_Power_AC:Res_0603"
-				(at 18.288 -15.494 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 7.62 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Res 2.49 KOhm 0603 1%"
-				(at 13.716 -16.002 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supply name" "Thegioiic"
-				(at 19.304 -15.748 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supply part number" "Điện Trở 2.49 KOhm 0603 1%"
-				(at 20.32 -15.494 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supply URL" "https://www.thegioiic.com/dien-tro-2-49-kohm-0603-1-"
-				(at 27.432 -16.764 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Res_2.49K_0603_1%"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Res_2.49K_0603_1%_0_1"
-				(polyline
-					(pts
-						(xy 1.524 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 0) (xy 1.905 1.016) (xy 2.286 0) (xy 2.667 -1.016) (xy 3.048 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 0) (xy 3.429 1.016) (xy 3.81 0) (xy 4.191 -1.016) (xy 4.572 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.572 0) (xy 4.953 1.016) (xy 5.334 0) (xy 5.715 -1.016) (xy 6.096 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.096 0) (xy 6.35 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Res_2.49K_0603_1%_1_1"
-				(pin passive line
-					(at 0 0 0)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Measurement_Power_AC:Res_20K_0603_1%"
 			(pin_numbers
 				(hide yes)
@@ -4979,7 +4189,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Measurement_Power_AC:Res_49.9K_0603_1%"
+		(symbol "Measurement_Power_AC:Res_3K_0603_1%"
 			(pin_numbers
 				(hide yes)
 			)
@@ -5001,7 +4211,7 @@
 					)
 				)
 			)
-			(property "Value" "49.9K/1%/1_10W"
+			(property "Value" "3K/1%/1_10W"
 				(at 4.064 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5022,7 +4232,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/esr-e.pdf"
 				(at 7.62 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5033,7 +4243,7 @@
 					)
 				)
 			)
-			(property "Description" "Res 49.9 KOhm 0603 1%"
+			(property "Description" "Res 3 KOhm 0603 1%"
 				(at 13.716 -16.002 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5055,7 +4265,7 @@
 					)
 				)
 			)
-			(property "Supply part number" "Điện Trở 49.9 KOhm 0603 1%"
+			(property "Supply part number" "Điện Trở 3 KOhm 0603 1%"
 				(at 20.32 -15.494 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5066,7 +4276,7 @@
 					)
 				)
 			)
-			(property "Supply URL" "https://www.thegioiic.com/dien-tro-49-9-kohm-0603-1-"
+			(property "Supply URL" "https://www.thegioiic.com/dien-tro-3-kohm-0603-1-"
 				(at 27.432 -16.764 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5077,7 +4287,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "Res_49.9K_0603_1%"
+			(property "ki_keywords" "Res_3K_0603_1%"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5088,7 +4298,7 @@
 					)
 				)
 			)
-			(symbol "Res_49.9K_0603_1%_0_1"
+			(symbol "Res_3K_0603_1%_0_1"
 				(polyline
 					(pts
 						(xy 1.524 0) (xy 1.27 0)
@@ -5150,7 +4360,7 @@
 					)
 				)
 			)
-			(symbol "Res_49.9K_0603_1%_1_1"
+			(symbol "Res_3K_0603_1%_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 1.27)
@@ -5883,129 +5093,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TestPoint_2"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "TestPoint_Pad_3.0x3.0mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TestPoint_2_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_2_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "TestPoint_3"
 			(pin_numbers
 				(hide yes)
@@ -6119,6 +5206,217 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "charge_battery_sym_lib:Res_220R_0603_1%"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 3.556 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "220/1%/1_10W"
+				(at 4.064 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "charge_battery_footprint_lib:Res_0603"
+				(at 18.288 -15.494 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 7.62 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Res 220Ohm 0603 1%"
+				(at 13.716 -16.002 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supply name" "Thegioiic"
+				(at 19.304 -15.748 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supply part number" "Điện Trở 220 Ohm 0603 1%"
+				(at 20.32 -15.494 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supply URL" "https://www.thegioiic.com/dien-tro-220-ohm-0603-1-"
+				(at 27.432 -16.764 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Res_220_0603_1%"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Res_220R_0603_1%_0_1"
+				(polyline
+					(pts
+						(xy 1.524 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 0) (xy 1.905 1.016) (xy 2.286 0) (xy 2.667 -1.016) (xy 3.048 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 0) (xy 3.429 1.016) (xy 3.81 0) (xy 4.191 -1.016) (xy 4.572 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 0) (xy 4.953 1.016) (xy 5.334 0) (xy 5.715 -1.016) (xy 6.096 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.096 0) (xy 6.35 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Res_220R_0603_1%_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6618,145 +5916,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -6874,18 +6033,6 @@
 		)
 	)
 	(rectangle
-		(start 110.49 107.95)
-		(end 200.66 156.21)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "12e39c55-fd73-47f1-9168-da47aaf329b5")
-	)
-	(rectangle
 		(start 30.48 20.32)
 		(end 264.16 97.79)
 		(stroke
@@ -6898,8 +6045,8 @@
 		(uuid "1bdd0285-295c-4ef7-87e9-62d405d75c6c")
 	)
 	(rectangle
-		(start 207.01 107.95)
-		(end 269.24 156.21)
+		(start 107.95 107.95)
+		(end 170.18 156.21)
 		(stroke
 			(width 0)
 			(type default)
@@ -6923,7 +6070,7 @@
 	)
 	(text "LED"
 		(exclude_from_sim no)
-		(at 210.82 111.76 0)
+		(at 114.3 111.76 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -6932,18 +6079,6 @@
 			)
 		)
 		(uuid "56bcd237-21c2-46c6-8c82-9e5f9b760dc3")
-	)
-	(text "LINEAR REGUALATOR 3V3 - AMS1117"
-		(exclude_from_sim no)
-		(at 136.398 111.506 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-				(thickness 0.3556)
-				(bold yes)
-			)
-		)
-		(uuid "8b7b9623-2686-4292-9625-3c122eb80b06")
 	)
 	(text "SWITCHING REGUALATOR - TPS54231DR\n"
 		(exclude_from_sim no)
@@ -6959,7 +6094,7 @@
 	)
 	(text "12V INPUT\n"
 		(exclude_from_sim no)
-		(at 36.83 111.76 0)
+		(at 39.37 111.76 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -6974,24 +6109,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "000adaa4-183b-49ff-a7dc-2094859b9809")
-	)
-	(junction
-		(at 48.26 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "06bc7eaf-663b-4539-8250-54c05972760e")
-	)
-	(junction
-		(at 124.46 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "09c81e08-978a-486c-bc82-8a18c56a0ce9")
-	)
-	(junction
-		(at 229.87 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "140a98e5-22ad-419f-a589-584651e2b33e")
 	)
 	(junction
 		(at 173.99 43.18)
@@ -7012,16 +6129,16 @@
 		(uuid "396a9bf1-e25f-4ace-a690-656eb3944dac")
 	)
 	(junction
-		(at 45.72 171.45)
+		(at 187.96 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "418a4db8-6fe0-4bec-bb4f-f571081f1e79")
 	)
 	(junction
-		(at 167.64 140.97)
+		(at 229.87 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "47ef8b35-1988-4e19-ae4e-85e06f4443fb")
+		(uuid "4346ec5d-56aa-48fd-985e-3b953fe2f174")
 	)
 	(junction
 		(at 115.57 71.12)
@@ -7060,24 +6177,6 @@
 		(uuid "8240e0a1-7f50-4733-9d65-f78611d2b7b4")
 	)
 	(junction
-		(at 140.97 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "876bcc54-f02c-4100-8efa-1a30f6ccf6ce")
-	)
-	(junction
-		(at 156.21 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "87a7d29f-f83c-4cc7-bcde-0b68c0c9d9a5")
-	)
-	(junction
-		(at 184.15 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8b5e3f65-2a59-4bbd-bb18-0dc38e6234af")
-	)
-	(junction
 		(at 48.26 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7096,22 +6195,10 @@
 		(uuid "a4573536-c869-4aef-acad-5646cca09c46")
 	)
 	(junction
-		(at 167.64 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b0724a85-bc6b-40f6-adbd-8af24c4ab19a")
-	)
-	(junction
 		(at 187.96 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bdf04539-6bdc-49d0-84cb-05f38372761c")
-	)
-	(junction
-		(at 140.97 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c82fca15-ac6a-4429-a54d-c5ef8a054d19")
 	)
 	(junction
 		(at 86.36 127)
@@ -7131,6 +6218,12 @@
 		(color 0 0 0 0)
 		(uuid "da22a318-33d0-4341-8a21-199726348fe2")
 	)
+	(junction
+		(at 48.26 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fcf9e64a-b12b-4a05-a12e-eb153f14be65")
+	)
 	(wire
 		(pts
 			(xy 173.99 55.88) (xy 187.96 55.88)
@@ -7143,7 +6236,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 146.05) (xy 220.98 148.59)
+			(xy 121.92 138.43) (xy 121.92 140.97)
 		)
 		(stroke
 			(width 0)
@@ -7233,33 +6326,13 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 166.37) (xy 45.72 171.45)
+			(xy 187.96 127) (xy 187.96 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "15e2c814-a03c-42ec-91ba-4ec0c0402b70")
-	)
-	(wire
-		(pts
-			(xy 163.83 128.27) (xy 167.64 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17d8ebdf-ba16-4d7e-b0b3-cf293b934b8d")
-	)
-	(wire
-		(pts
-			(xy 167.64 140.97) (xy 184.15 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19f2a638-b930-4eed-9d74-905fcd032fff")
 	)
 	(wire
 		(pts
@@ -7273,17 +6346,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 134.62) (xy 257.81 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1cc9ab22-9d38-407d-aa3e-e87e9cee8ebc")
-	)
-	(wire
-		(pts
-			(xy 229.87 46.99) (xy 229.87 43.18)
+			(xy 229.87 50.8) (xy 229.87 43.18)
 		)
 		(stroke
 			(width 0)
@@ -7323,6 +6386,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 76.2) (xy 229.87 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2065d5e0-c716-4da5-8c01-030e030479de")
+	)
+	(wire
+		(pts
 			(xy 81.28 59.69) (xy 81.28 60.96)
 		)
 		(stroke
@@ -7333,7 +6406,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 120.65) (xy 243.84 120.65)
+			(xy 135.89 124.46) (xy 144.78 124.46)
 		)
 		(stroke
 			(width 0)
@@ -7363,26 +6436,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 128.27) (xy 184.15 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c54364f-9f87-48a3-981f-9051d2daa0b6")
-	)
-	(wire
-		(pts
-			(xy 229.87 73.66) (xy 229.87 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d1e81aa-207f-47c2-a110-b2fddfde439c")
-	)
-	(wire
-		(pts
 			(xy 142.24 62.23) (xy 142.24 63.5)
 		)
 		(stroke
@@ -7403,33 +6456,13 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 118.11) (xy 220.98 120.65)
+			(xy 121.92 121.92) (xy 121.92 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "319a0229-e519-4c30-a273-474b2668f5ae")
-	)
-	(wire
-		(pts
-			(xy 140.97 138.43) (xy 140.97 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31fa8fbb-b348-4cdf-bcb3-6f3a411dfa1d")
-	)
-	(wire
-		(pts
-			(xy 140.97 128.27) (xy 140.97 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3252ec24-b72b-4dc8-b954-2782d990e626")
 	)
 	(wire
 		(pts
@@ -7443,7 +6476,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 120.65) (xy 257.81 120.65)
+			(xy 152.4 124.46) (xy 158.75 124.46)
 		)
 		(stroke
 			(width 0)
@@ -7463,16 +6496,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 166.37) (xy 140.97 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ee90b24-c142-40bf-b659-237d5adff15f")
-	)
-	(wire
-		(pts
 			(xy 173.99 44.45) (xy 173.99 43.18)
 		)
 		(stroke
@@ -7483,23 +6506,13 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 120.65) (xy 257.81 121.92)
+			(xy 158.75 124.46) (xy 158.75 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "407431ed-3832-4ae9-85eb-6bad6403584b")
-	)
-	(wire
-		(pts
-			(xy 167.64 138.43) (xy 167.64 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "424c0adc-00a4-4d5b-8239-11a99cbb6055")
 	)
 	(wire
 		(pts
@@ -7523,16 +6536,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 134.62) (xy 257.81 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "453c1d32-9e21-4c5e-815c-46ea880bf533")
-	)
-	(wire
-		(pts
 			(xy 132.08 45.72) (xy 101.6 45.72)
 		)
 		(stroke
@@ -7543,7 +6546,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 166.37) (xy 66.04 177.8)
+			(xy 208.28 127) (xy 208.28 138.43)
 		)
 		(stroke
 			(width 0)
@@ -7553,7 +6556,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 179.07) (xy 121.92 179.07)
+			(xy 243.84 140.97) (xy 246.38 140.97)
 		)
 		(stroke
 			(width 0)
@@ -7583,16 +6586,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 140.97) (xy 156.21 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "525726ec-67cc-46a4-b99b-efac560cdd10")
-	)
-	(wire
-		(pts
 			(xy 48.26 38.1) (xy 48.26 40.64)
 		)
 		(stroke
@@ -7600,16 +6593,6 @@
 			(type default)
 		)
 		(uuid "53f6febf-1a21-4e12-a512-1c3774444f0f")
-	)
-	(wire
-		(pts
-			(xy 118.11 128.27) (xy 124.46 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "564d0db2-a5fb-4cd8-8bcc-855b24227a58")
 	)
 	(wire
 		(pts
@@ -7633,7 +6616,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 171.45) (xy 38.1 173.99)
+			(xy 180.34 132.08) (xy 180.34 134.62)
 		)
 		(stroke
 			(width 0)
@@ -7650,26 +6633,6 @@
 			(type default)
 		)
 		(uuid "608faef8-ae0b-474a-ae0d-3d5b1ce3c299")
-	)
-	(wire
-		(pts
-			(xy 167.64 128.27) (xy 184.15 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "615a74aa-c6da-43bb-b9b6-5ef6fb778f7f")
-	)
-	(wire
-		(pts
-			(xy 229.87 69.85) (xy 229.87 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "660da453-f27b-406e-a215-c787695b936a")
 	)
 	(wire
 		(pts
@@ -7693,7 +6656,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 148.59) (xy 257.81 149.86)
+			(xy 158.75 140.97) (xy 158.75 142.24)
 		)
 		(stroke
 			(width 0)
@@ -7703,7 +6666,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 171.45) (xy 38.1 171.45)
+			(xy 187.96 132.08) (xy 180.34 132.08)
 		)
 		(stroke
 			(width 0)
@@ -7723,17 +6686,27 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 54.61) (xy 229.87 62.23)
+			(xy 229.87 58.42) (xy 229.87 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7f96b1f9-6534-42b2-a2bf-190a058ee4af")
+		(uuid "7ee1e182-0b46-4c93-80c1-224cb6a4dbb7")
 	)
 	(wire
 		(pts
-			(xy 229.87 85.09) (xy 229.87 87.63)
+			(xy 43.18 38.1) (xy 48.26 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fc38301-c715-4c1d-8bc7-71f58d16cdc4")
+	)
+	(wire
+		(pts
+			(xy 229.87 86.36) (xy 229.87 87.63)
 		)
 		(stroke
 			(width 0)
@@ -7783,23 +6756,13 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 180.34) (xy 140.97 179.07)
+			(xy 265.43 142.24) (xy 265.43 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8eac4949-d127-4392-b8e5-7b9ff68b1da4")
-	)
-	(wire
-		(pts
-			(xy 191.77 127) (xy 191.77 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93123524-35d1-4202-b689-454410d55293")
 	)
 	(wire
 		(pts
@@ -7813,27 +6776,17 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 38.1) (xy 48.26 38.1)
+			(xy 34.29 38.1) (xy 38.1 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9489d264-e624-4c26-9eaa-27027b0076da")
+		(uuid "9731d3db-8035-4311-be4a-a9b1b8b94403")
 	)
 	(wire
 		(pts
-			(xy 124.46 128.27) (xy 124.46 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98a931ae-351e-4bd0-8fc9-e1c42405dda6")
-	)
-	(wire
-		(pts
-			(xy 138.43 179.07) (xy 140.97 179.07)
+			(xy 262.89 140.97) (xy 265.43 140.97)
 		)
 		(stroke
 			(width 0)
@@ -7843,7 +6796,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 171.45) (xy 45.72 177.8)
+			(xy 187.96 132.08) (xy 187.96 138.43)
 		)
 		(stroke
 			(width 0)
@@ -7873,16 +6826,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 135.89) (xy 156.21 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2cd06f6-5a47-42cc-8946-9301d8d68822")
-	)
-	(wire
-		(pts
 			(xy 48.26 50.8) (xy 48.26 48.26)
 		)
 		(stroke
@@ -7903,7 +6846,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 166.37) (xy 121.92 166.37)
+			(xy 243.84 128.27) (xy 246.38 128.27)
 		)
 		(stroke
 			(width 0)
@@ -7913,63 +6856,13 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 140.97) (xy 156.21 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a949a739-aab0-4cc0-a95d-0ffc3cecabf2")
-	)
-	(wire
-		(pts
-			(xy 124.46 140.97) (xy 140.97 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9b46146-85d9-4b83-87c2-ade33d2183d2")
-	)
-	(wire
-		(pts
-			(xy 184.15 138.43) (xy 184.15 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa150e34-4639-4ab0-890d-0eb379e76db2")
-	)
-	(wire
-		(pts
-			(xy 140.97 166.37) (xy 140.97 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aba93a96-b50b-474d-a1c0-cbabe5d598a2")
-	)
-	(wire
-		(pts
-			(xy 234.95 148.59) (xy 243.84 148.59)
+			(xy 135.89 140.97) (xy 144.78 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ac30763e-24f4-467d-8ec9-3f8604514f89")
-	)
-	(wire
-		(pts
-			(xy 220.98 132.08) (xy 220.98 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae83efde-2758-41d8-b009-46c8522e4956")
 	)
 	(wire
 		(pts
@@ -7993,17 +6886,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 38.1) (xy 64.77 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b19848bb-f614-4d9a-bb5a-f835d9359a83")
-	)
-	(wire
-		(pts
-			(xy 121.92 179.07) (xy 121.92 177.8)
+			(xy 246.38 140.97) (xy 246.38 139.7)
 		)
 		(stroke
 			(width 0)
@@ -8033,7 +6916,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 166.37) (xy 121.92 165.1)
+			(xy 246.38 128.27) (xy 246.38 127)
 		)
 		(stroke
 			(width 0)
@@ -8053,33 +6936,13 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 128.27) (xy 148.59 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd5c1bf7-c8f8-44a6-a5b2-0ed13ead83bc")
-	)
-	(wire
-		(pts
-			(xy 163.83 48.26) (xy 163.83 73.66)
+			(xy 163.83 48.26) (xy 163.83 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cc13f407-0313-46e4-862c-b0f2a233cd64")
-	)
-	(wire
-		(pts
-			(xy 220.98 134.62) (xy 227.33 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfb997aa-3bc0-49ab-ab64-98067ce7a9e8")
 	)
 	(wire
 		(pts
@@ -8133,17 +6996,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 128.27) (xy 140.97 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "deaa58b7-caa5-4b7e-b9c6-fb400c7da0f1")
-	)
-	(wire
-		(pts
-			(xy 45.72 166.37) (xy 66.04 166.37)
+			(xy 187.96 127) (xy 208.28 127)
 		)
 		(stroke
 			(width 0)
@@ -8213,16 +7066,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 138.43) (xy 124.46 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eed48583-5624-4f2d-9b18-e20ba1ea292f")
-	)
-	(wire
-		(pts
 			(xy 64.77 38.1) (xy 81.28 38.1)
 		)
 		(stroke
@@ -8233,7 +7076,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 148.59) (xy 257.81 148.59)
+			(xy 152.4 140.97) (xy 158.75 140.97)
 		)
 		(stroke
 			(width 0)
@@ -8263,23 +7106,13 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 134.62) (xy 243.84 134.62)
+			(xy 48.26 38.1) (xy 64.77 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f2e365d1-fa07-4253-a10b-6bd9686cdd8b")
-	)
-	(wire
-		(pts
-			(xy 167.64 128.27) (xy 167.64 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f55957c4-3ff9-4478-b21b-6331cb55e2fd")
+		(uuid "f1ec510d-6674-437b-aceb-d683631b62a0")
 	)
 	(wire
 		(pts
@@ -8293,17 +7126,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 128.27) (xy 184.15 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9fc2d79-96b5-47a5-9a4e-70d7a1c4a6de")
-	)
-	(wire
-		(pts
-			(xy 220.98 148.59) (xy 227.33 148.59)
+			(xy 121.92 140.97) (xy 128.27 140.97)
 		)
 		(stroke
 			(width 0)
@@ -8323,23 +7146,13 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 120.65) (xy 227.33 120.65)
+			(xy 121.92 124.46) (xy 128.27 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fba82736-4d5f-490e-a5ec-222fdde1cdda")
-	)
-	(wire
-		(pts
-			(xy 156.21 140.97) (xy 167.64 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbaae415-e06c-463a-b189-17446ba932fa")
 	)
 	(wire
 		(pts
@@ -8373,7 +7186,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 73.66) (xy 229.87 73.66)
+			(xy 163.83 66.04) (xy 229.87 66.04)
 		)
 		(stroke
 			(width 0)
@@ -8382,7 +7195,7 @@
 		(uuid "ff84c2c2-0009-47ed-ad34-06e88f89776e")
 	)
 	(label "VSENSE"
-		(at 163.83 73.66 0)
+		(at 163.83 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8390,6 +7203,16 @@
 			(justify left bottom)
 		)
 		(uuid "3bf763b7-e2f6-466b-8826-538511f2da01")
+	)
+	(label "FB"
+		(at 48.26 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3b752dd-6d56-4f82-8bcd-f4dbc3e14ade")
 	)
 	(label "Fuse"
 		(at 46.99 127 0)
@@ -8413,7 +7236,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07dd25e4-eadc-404c-8576-f1707864067e")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR03"
 			(at 55.88 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -8473,7 +7296,7 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "#PWR04")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -8639,165 +7462,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Measurement_Power_AC:Res_2.49K_0603_1%")
-		(at 229.87 54.61 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0a7476d0-3dfc-4f0a-bcad-b186e44af25c")
-		(property "Reference" "R2"
-			(at 232.41 49.5299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "2.49K/1%/1_10W"
-			(at 232.41 52.0699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Measure_Power_AC:Res_0603"
-			(at 245.364 36.322 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 245.11 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Res 2.49 KOhm 0603 1%"
-			(at 245.872 40.894 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supply name" "Thegioiic"
-			(at 245.618 35.306 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supply part number" "Điện Trở 2.49 KOhm 0603 1%"
-			(at 245.364 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supply URL" "https://www.thegioiic.com/dien-tro-2-49-kohm-0603-1-"
-			(at 246.634 27.178 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 229.87 54.61 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 229.87 54.61 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplt part number" ""
-			(at 229.87 54.61 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sypply name" ""
-			(at 229.87 54.61 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7b4405fb-e9e8-4709-8b69-b4ff4215e419")
-		)
-		(pin "1"
-			(uuid "8a735621-a140-45c4-b033-7bb9f6627b48")
-		)
-		(instances
-			(project "Smart_Switch"
-				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "DongKhoa:Fuse_16V_2.5A")
 		(at 59.69 127 90)
 		(unit 1)
@@ -8956,7 +7620,7 @@
 	)
 	(symbol
 		(lib_id "DongKhoa:MountingHole")
-		(at 66.04 177.8 0)
+		(at 208.28 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8967,7 +7631,7 @@
 		(fields_autoplaced yes)
 		(uuid "1c8f357b-b85f-4cfa-b8e9-b8e3ae4f5efc")
 		(property "Reference" "H4"
-			(at 68.58 176.5299 0)
+			(at 210.82 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8978,7 +7642,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 68.58 179.0699 0)
+			(at 210.82 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8989,7 +7653,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
-			(at 66.04 177.8 0)
+			(at 208.28 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9000,7 +7664,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 177.8 0)
+			(at 208.28 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9011,7 +7675,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 66.04 177.8 0)
+			(at 208.28 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9022,7 +7686,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 66.04 177.8 0)
+			(at 208.28 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9033,7 +7697,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 66.04 177.8 0)
+			(at 208.28 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9044,7 +7708,7 @@
 			)
 		)
 		(property "Supplt part number" ""
-			(at 66.04 177.8 0)
+			(at 208.28 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9055,7 +7719,7 @@
 			)
 		)
 		(property "Sypply name" ""
-			(at 66.04 177.8 0)
+			(at 208.28 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9077,7 +7741,7 @@
 	(symbol
 		(lib_name "TestPoint_3")
 		(lib_id "DongKhoa:TestPoint")
-		(at 138.43 179.07 90)
+		(at 262.89 140.97 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9087,8 +7751,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1cd98b23-1277-4251-abfb-b7c8388f1694")
-		(property "Reference" "TP4"
-			(at 135.128 173.99 90)
+		(property "Reference" "TP3"
+			(at 259.588 135.89 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9098,7 +7762,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 135.128 176.53 90)
+			(at 259.588 138.43 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9108,7 +7772,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 138.43 173.99 0)
+			(at 262.89 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9119,7 +7783,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 173.99 0)
+			(at 262.89 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9130,7 +7794,7 @@
 			)
 		)
 		(property "Description" "TestPoint_Pad_3.0x3.0mm"
-			(at 138.43 179.07 0)
+			(at 262.89 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9141,7 +7805,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 138.43 179.07 90)
+			(at 262.89 140.97 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9152,7 +7816,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 138.43 179.07 90)
+			(at 262.89 140.97 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9163,7 +7827,7 @@
 			)
 		)
 		(property "Supplt part number" ""
-			(at 138.43 179.07 90)
+			(at 262.89 140.97 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9174,7 +7838,7 @@
 			)
 		)
 		(property "Sypply name" ""
-			(at 138.43 179.07 90)
+			(at 262.89 140.97 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9190,7 +7854,7 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "TP4")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -9198,7 +7862,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 220.98 118.11 0)
+		(at 121.92 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9208,8 +7872,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "256682b2-1500-4d5a-84a6-f6a5deecf462")
-		(property "Reference" "#PWR010"
-			(at 220.98 121.92 0)
+		(property "Reference" "#PWR08"
+			(at 121.92 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9220,7 +7884,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 220.98 113.03 0)
+			(at 121.92 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9230,7 +7894,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 118.11 0)
+			(at 121.92 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9241,7 +7905,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 118.11 0)
+			(at 121.92 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9252,7 +7916,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 220.98 118.11 0)
+			(at 121.92 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9268,7 +7932,7 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "#PWR010")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -9286,7 +7950,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29cd8b3e-d19a-4a04-9537-fc9fa49ee214")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR04"
 			(at 80.01 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -9346,15 +8010,15 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "#PWR018")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Measurement_Power_AC:Ceramic_Cap_SMD_39pF_50V")
-		(at 125.73 60.96 90)
+		(lib_id "power:+3V3")
+		(at 229.87 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9362,32 +8026,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c626e4f-c48e-457f-8efd-0bda992a3059")
-		(property "Reference" "C7"
-			(at 129.54 57.1499 90)
+		(uuid "2c14aad8-22f2-43c7-a9bf-73ef5be40f52")
+		(property "Reference" "#PWR016"
+			(at 229.87 44.45 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "39pF/50V"
-			(at 129.54 59.6899 90)
+		(property "Value" "+3V3"
+			(at 231.394 36.576 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "charge_battery_footprint_lib:Ceramic_Cap_0603"
-			(at 120.65 61.214 0)
+		(property "Footprint" ""
+			(at 229.87 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9398,7 +8060,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 60.706 0)
+			(at 229.87 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9408,8 +8070,8 @@
 				)
 			)
 		)
-		(property "Description" "10%, 0603 (1608 Metric)"
-			(at 120.142 59.944 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 229.87 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9418,94 +8080,14 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Supply name" "Thegioiic"
-			(at 120.65 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supply part number" "Tụ Gốm 0603 39pF 50V"
-			(at 120.142 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supply URL" "https://www.thegioiic.com/tu-gom-0603-39pf-50v"
-			(at 120.65 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 125.73 60.96 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 125.73 60.96 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplt part number" ""
-			(at 125.73 60.96 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sypply name" ""
-			(at 125.73 60.96 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9c5b52d9-0a3e-464a-be51-56568c12b85a")
 		)
 		(pin "1"
-			(uuid "53d0c137-71c6-4d19-8bdc-b56d6e7912d6")
+			(uuid "8257223d-230a-418b-b7e0-f0332db2e7db")
 		)
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "C7")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -9513,7 +8095,7 @@
 	)
 	(symbol
 		(lib_id "kicad_global_lib:Res_220R_0603_1%")
-		(at 243.84 148.59 0)
+		(at 144.78 140.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9523,8 +8105,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d6b787b-bc98-4ff8-9d3d-92110e0df08e")
-		(property "Reference" "R9"
-			(at 247.65 142.24 0)
+		(property "Reference" "R5"
+			(at 148.59 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9534,7 +8116,7 @@
 			)
 		)
 		(property "Value" "220/1%/1_10W"
-			(at 247.65 144.78 0)
+			(at 148.59 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9544,7 +8126,7 @@
 			)
 		)
 		(property "Footprint" "charge_battery_footprint_lib:Res_0603"
-			(at 262.128 164.084 0)
+			(at 163.068 156.464 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9555,7 +8137,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 163.83 0)
+			(at 152.4 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9566,7 +8148,7 @@
 			)
 		)
 		(property "Description" "Res 220Ohm 0603 1%"
-			(at 257.556 164.592 0)
+			(at 158.496 156.972 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9577,7 +8159,7 @@
 			)
 		)
 		(property "Supply name" "Thegioiic"
-			(at 263.144 164.338 0)
+			(at 164.084 156.718 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9588,7 +8170,7 @@
 			)
 		)
 		(property "Supply part number" "Điện Trở 220 Ohm 0603 1%"
-			(at 264.16 164.084 0)
+			(at 165.1 156.464 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9599,7 +8181,7 @@
 			)
 		)
 		(property "Supply URL" "https://www.thegioiic.com/dien-tro-220-ohm-0603-1-"
-			(at 271.272 165.354 0)
+			(at 172.212 157.734 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9610,7 +8192,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 243.84 148.59 0)
+			(at 144.78 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9621,7 +8203,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 243.84 148.59 0)
+			(at 144.78 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9632,7 +8214,7 @@
 			)
 		)
 		(property "Supplt part number" ""
-			(at 243.84 148.59 0)
+			(at 144.78 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9643,7 +8225,7 @@
 			)
 		)
 		(property "Sypply name" ""
-			(at 243.84 148.59 0)
+			(at 144.78 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9658,165 +8240,6 @@
 		)
 		(pin "1"
 			(uuid "e7fa9029-1d19-4b73-bf57-d79d8b00bfa5")
-		)
-		(instances
-			(project "Smart_Switch"
-				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Measurement_Power_AC:Res_49.9K_0603_1%")
-		(at 229.87 69.85 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "30b15d3f-42b0-4686-8243-422136c66520")
-		(property "Reference" "R5"
-			(at 232.41 64.7699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "49.9K/1%/1_10W"
-			(at 232.41 67.3099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Measure_Power_AC:Res_0603"
-			(at 245.364 51.562 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 245.11 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Res 49.9 KOhm 0603 1%"
-			(at 245.872 56.134 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supply name" "Thegioiic"
-			(at 245.618 50.546 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supply part number" "Điện Trở 49.9 KOhm 0603 1%"
-			(at 245.364 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supply URL" "https://www.thegioiic.com/dien-tro-49-9-kohm-0603-1-"
-			(at 246.634 42.418 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 229.87 69.85 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 229.87 69.85 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplt part number" ""
-			(at 229.87 69.85 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sypply name" ""
-			(at 229.87 69.85 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e90898a4-46f1-49ab-be1d-3ef58166d006")
-		)
-		(pin "2"
-			(uuid "d836953f-6363-420c-9c4c-81d3bbe917d0")
 		)
 		(instances
 			(project "Smart_Switch"
@@ -9839,7 +8262,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32a3de1d-c691-410f-89a1-30c7c19fb4fb")
-		(property "Reference" "D3"
+		(property "Reference" "D1"
 			(at 74.93 132.0799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9980,129 +8403,7 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "TestPoint_2")
-		(lib_id "DongKhoa:TestPoint")
-		(at 138.43 166.37 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "33ae6efe-e748-4845-a8df-8a8cb665c05b")
-		(property "Reference" "TP2"
-			(at 135.128 161.29 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 135.128 163.83 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 138.43 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "TestPoint_Pad_3.0x3.0mm"
-			(at 138.43 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 138.43 166.37 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 138.43 166.37 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplt part number" ""
-			(at 138.43 166.37 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sypply name" ""
-			(at 138.43 166.37 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7f7012f9-c171-4d6c-9632-18de3912cc0b")
-		)
-		(instances
-			(project "Smart_Switch"
-				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "TP2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -10120,7 +8421,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33bf38c2-5131-41f8-9157-5282dd839f4b")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR017"
 			(at 229.87 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -10180,7 +8481,7 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "#PWR09")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -10189,7 +8490,7 @@
 	(symbol
 		(lib_name "MountingHole_2")
 		(lib_id "DongKhoa:MountingHole")
-		(at 66.04 166.37 0)
+		(at 208.28 127 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10199,8 +8500,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37ca6616-aae6-40a4-905f-f665249d69e4")
-		(property "Reference" "H2"
-			(at 68.58 165.0999 0)
+		(property "Reference" "H3"
+			(at 210.82 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10211,7 +8512,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 68.58 167.6399 0)
+			(at 210.82 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10222,7 +8523,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
-			(at 66.04 166.37 0)
+			(at 208.28 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10233,7 +8534,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 166.37 0)
+			(at 208.28 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10244,7 +8545,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 66.04 166.37 0)
+			(at 208.28 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10255,7 +8556,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 66.04 166.37 0)
+			(at 208.28 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10266,7 +8567,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 66.04 166.37 0)
+			(at 208.28 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10277,7 +8578,7 @@
 			)
 		)
 		(property "Supplt part number" ""
-			(at 66.04 166.37 0)
+			(at 208.28 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10288,7 +8589,7 @@
 			)
 		)
 		(property "Sypply name" ""
-			(at 66.04 166.37 0)
+			(at 208.28 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10301,7 +8602,7 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "H2")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -10319,7 +8620,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3902c5c5-f719-44ca-8df4-415fbf2a773e")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR05"
 			(at 81.28 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -10379,7 +8680,235 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "#PWR06")
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "charge_battery_sym_lib:Res_220R_0603_1%")
+		(at 229.87 86.36 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e47ab9d-ed8b-4330-aac7-85b4d38e596e")
+		(property "Reference" "R8"
+			(at 232.41 81.2799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "220/1%/1_10W"
+			(at 232.41 83.8199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "charge_battery_footprint_lib:Res_0603"
+			(at 245.364 68.072 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Res 220Ohm 0603 1%"
+			(at 245.872 72.644 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply name" "Thegioiic"
+			(at 245.618 67.056 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply part number" "Điện Trở 220 Ohm 0603 1%"
+			(at 245.364 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply URL" "https://www.thegioiic.com/dien-tro-220-ohm-0603-1-"
+			(at 246.634 58.928 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5d5a7a88-aeed-406b-909d-6aa56d2b2ac3")
+		)
+		(pin "1"
+			(uuid "01e83654-3c5e-4c41-a7ce-ba2d92f8c2b5")
+		)
+		(instances
+			(project "Smart_Switch"
+				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DongKhoa:FerriteBead_2A_120R_Small")
+		(at 40.64 38.1 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "401bb9e5-df57-4d41-b1fc-35777a774a58")
+		(property "Reference" "FB1"
+			(at 40.6019 31.75 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2A_120R"
+			(at 40.6019 34.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Measure_Power_AC:FB_0805"
+			(at 40.64 39.878 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Ferrite bead, small symbol"
+			(at 40.64 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply name" "Thegioiic"
+			(at 40.64 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply part number" "CBW201209U121T "
+			(at 40.64 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply URL" "https://www.thegioiic.com/cbw201209u121t-ferrite-beads-2a-120-ohm-0805"
+			(at 40.64 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c7f33196-c9ef-4f06-9160-5d836daaa25d")
+		)
+		(pin "2"
+			(uuid "6d8c47e6-57ea-42e0-a306-be332ea76aba")
+		)
+		(instances
+			(project "Smart_Switch"
+				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
+					(reference "FB1")
 					(unit 1)
 				)
 			)
@@ -10397,7 +8926,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43acaee0-1831-4643-98b5-26d9504e4f02")
-		(property "Reference" "R4"
+		(property "Reference" "R3"
 			(at 109.22 63.4999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10538,7 +9067,7 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "R4")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -10546,7 +9075,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 140.97 180.34 0)
+		(at 265.43 142.24 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10556,8 +9085,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49dcc3d5-b1b5-4d81-9890-269b0e36f3fc")
-		(property "Reference" "#PWR026"
-			(at 140.97 186.69 0)
+		(property "Reference" "#PWR020"
+			(at 265.43 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10568,7 +9097,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 140.97 185.42 0)
+			(at 265.43 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10578,7 +9107,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 180.34 0)
+			(at 265.43 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10589,7 +9118,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 180.34 0)
+			(at 265.43 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10600,7 +9129,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 140.97 180.34 0)
+			(at 265.43 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10616,7 +9145,7 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "#PWR026")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -10624,7 +9153,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 257.81 121.92 0)
+		(at 158.75 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10634,8 +9163,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c129003-9211-4f22-986a-10ddcc0ce450")
-		(property "Reference" "#PWR011"
-			(at 257.81 128.27 0)
+		(property "Reference" "#PWR012"
+			(at 158.75 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10646,7 +9175,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 257.81 127 0)
+			(at 158.75 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10656,7 +9185,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 121.92 0)
+			(at 158.75 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10667,7 +9196,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 121.92 0)
+			(at 158.75 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10678,7 +9207,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 257.81 121.92 0)
+			(at 158.75 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10694,7 +9223,7 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "#PWR011")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -10712,7 +9241,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "508b8b3d-68d0-4d00-9af7-67c0019754dd")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR02"
 			(at 48.26 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -10772,7 +9301,7 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "#PWR016")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -10780,7 +9309,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 257.81 149.86 0)
+		(at 158.75 142.24 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10790,8 +9319,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53e41f16-bea3-459d-b27c-73f4fd89b176")
-		(property "Reference" "#PWR021"
-			(at 257.81 156.21 0)
+		(property "Reference" "#PWR013"
+			(at 158.75 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10802,7 +9331,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 257.81 154.94 0)
+			(at 158.75 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10812,7 +9341,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 149.86 0)
+			(at 158.75 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10823,7 +9352,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 149.86 0)
+			(at 158.75 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10834,7 +9363,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 257.81 149.86 0)
+			(at 158.75 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10850,7 +9379,7 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "#PWR021")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -10858,7 +9387,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 121.92 177.8 0)
+		(at 246.38 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10867,8 +9396,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5468286a-a42f-463e-8f88-0b06dec18677")
-		(property "Reference" "#PWR025"
-			(at 121.92 181.61 0)
+		(property "Reference" "#PWR019"
+			(at 246.38 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10879,7 +9408,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 123.444 173.736 0)
+			(at 247.904 135.636 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10889,7 +9418,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 177.8 0)
+			(at 246.38 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10900,7 +9429,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 177.8 0)
+			(at 246.38 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10911,7 +9440,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 121.92 177.8 0)
+			(at 246.38 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10927,325 +9456,7 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Measurement_Power_AC:Ceramic_Cap_SMD_4.7nF_50V")
-		(at 106.68 58.42 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "588e757e-1153-4fbf-80d9-178e24979621")
-		(property "Reference" "C6"
-			(at 110.49 53.3399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "4.7nF/50V"
-			(at 110.49 55.8799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "charge_battery_footprint_lib:Ceramic_Cap_0603"
-			(at 101.6 58.674 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 58.166 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10%, 0603 (1608 Metric)"
-			(at 101.092 57.404 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supply name" "Thegioiic"
-			(at 101.6 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supply part number" "Tụ Gốm 0603 4.7nF 50V"
-			(at 101.092 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supply URL" "https://www.thegioiic.com/tu-gom-0603-4-7nf-50v"
-			(at 101.6 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 106.68 58.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 106.68 58.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplt part number" ""
-			(at 106.68 58.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sypply name" ""
-			(at 106.68 58.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f70e305a-9383-4c49-ab83-97c2f05f9262")
-		)
-		(pin "1"
-			(uuid "795d3360-9f6c-457c-9f4d-8c4d194d49b2")
-		)
-		(instances
-			(project "Smart_Switch"
-				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DongKhoa:Ceramic_Cap_SMD_0603_10uF_16V")
-		(at 124.46 138.43 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5a2edeb4-9e03-4c5b-bd76-1add91d1a5a4")
-		(property "Reference" "C10"
-			(at 128.27 133.3499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10uF/16V"
-			(at 128.27 135.8899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Measure_Power_AC:Ceramic_Cap_0603"
-			(at 119.38 138.684 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.vn/datasheet/2/40/KYOCERA_AutoMLCCKAM-3106308.pdf"
-			(at 119.38 138.176 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10%, 0603 (1608 Metric)"
-			(at 118.872 137.414 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supply name" "Thegioiic"
-			(at 119.38 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supply part number" "Tụ Gốm 0603 10uF 16V"
-			(at 118.872 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supply URL" "https://www.thegioiic.com/tu-gom-0603-10uf-16v"
-			(at 119.38 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 124.46 138.43 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 124.46 138.43 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplt part number" ""
-			(at 124.46 138.43 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sypply name" ""
-			(at 124.46 138.43 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e5833985-be35-4a08-b9ef-a52d9f29e4f9")
-		)
-		(pin "1"
-			(uuid "02fe452b-b0ee-4fb9-8224-b105fd1fe569")
-		)
-		(instances
-			(project "Smart_Switch"
-				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "C10")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -11263,7 +9474,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ddd86b0-3341-4b68-bb73-86b65912f7a8")
-		(property "Reference" "D1"
+		(property "Reference" "D4"
 			(at 176.53 48.2599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11404,493 +9615,7 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Measurement_Power_AC:Res_10K_0603_1%")
-		(at 229.87 85.09 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "648d69f3-642f-4a22-9e80-0345a0d16128")
-		(property "Reference" "R6"
-			(at 232.41 80.0099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10K/1%/1_10W"
-			(at 232.41 82.5499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Measure_Power_AC:Res_0603"
-			(at 218.44 45.212 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/esr-e.pdf"
-			(at 229.108 45.466 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Res 10 KOhm 0603 1%"
-			(at 223.012 44.704 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supply name" "Thegioiic"
-			(at 217.424 44.958 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supply part number" "Điện Trở 10 KOhm 0603 1%"
-			(at 216.408 45.212 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supply URL" "https://www.thegioiic.com/dien-tro-10-kohm-0603-1-"
-			(at 209.296 43.942 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 229.87 85.09 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 229.87 85.09 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplt part number" ""
-			(at 229.87 85.09 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sypply name" ""
-			(at 229.87 85.09 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9fb19bd9-9a99-4ff5-af10-0e9276005ac7")
-		)
-		(pin "1"
-			(uuid "1da499ef-fa41-489f-9d7f-9f2436e2fa67")
-		)
-		(instances
-			(project "Smart_Switch"
-				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DongKhoa:AMS1117-3.3")
-		(at 151.13 133.35 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6de0f616-7439-4028-a38f-07fc1ff44dc1")
-		(property "Reference" "U2"
-			(at 156.21 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AMS1117-3.3"
-			(at 156.21 124.46 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 151.13 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
-			(at 153.67 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
-			(at 151.13 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supply name " "Thegioiic"
-			(at 156.21 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supply part number" "AMS1117-3.3V IC Ổn Áp 3.3V 1A SOT-223"
-			(at 151.13 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supply URL" "https://www.thegioiic.com/ams1117-3-3v-ic-on-ap-3-3v-1a-sot-223"
-			(at 151.13 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supply name" "Thegioiic"
-			(at 156.21 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 151.13 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 151.13 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplt part number" ""
-			(at 151.13 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sypply name" ""
-			(at 151.13 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "de00b4c8-35a9-4373-b6c1-85705031ed0d")
-		)
-		(pin "2"
-			(uuid "647885ef-b827-4a07-878e-84b530276d64")
-		)
-		(pin "1"
-			(uuid "cb014eb1-8ce4-40d4-9fb0-ad3d1a70f219")
-		)
-		(instances
-			(project "Smart_Switch"
-				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 229.87 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "730e39f0-fefa-4af0-a80d-406666c8b09d")
-		(property "Reference" "#PWR03"
-			(at 229.87 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 229.87 35.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 229.87 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 229.87 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 229.87 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ec0a065d-34fe-47de-9b34-55506519a666")
-		)
-		(instances
-			(project "Smart_Switch"
-				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 257.81 135.89 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "74289fa6-edd6-4357-95de-0211f103085a")
-		(property "Reference" "#PWR017"
-			(at 257.81 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 257.81 140.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 257.81 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 257.81 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 257.81 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c9f9fd61-9401-41d9-8e3a-8276d75108a6")
-		)
-		(instances
-			(project "Smart_Switch"
-				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "#PWR017")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -11899,7 +9624,7 @@
 	(symbol
 		(lib_name "TestPoint_1")
 		(lib_id "DongKhoa:TestPoint")
-		(at 119.38 166.37 90)
+		(at 243.84 128.27 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11910,7 +9635,7 @@
 		(fields_autoplaced yes)
 		(uuid "747b6617-89ad-451a-9cfa-ad2bd668f68c")
 		(property "Reference" "TP1"
-			(at 116.078 161.29 90)
+			(at 240.538 123.19 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11920,7 +9645,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 116.078 163.83 90)
+			(at 240.538 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11930,7 +9655,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 119.38 161.29 0)
+			(at 243.84 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11941,7 +9666,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 161.29 0)
+			(at 243.84 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11952,7 +9677,7 @@
 			)
 		)
 		(property "Description" "TestPoint_Pad_3.0x3.0mm"
-			(at 119.38 166.37 0)
+			(at 243.84 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11963,7 +9688,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 119.38 166.37 90)
+			(at 243.84 128.27 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11974,7 +9699,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 119.38 166.37 90)
+			(at 243.84 128.27 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11985,7 +9710,7 @@
 			)
 		)
 		(property "Supplt part number" ""
-			(at 119.38 166.37 90)
+			(at 243.84 128.27 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11996,7 +9721,7 @@
 			)
 		)
 		(property "Sypply name" ""
-			(at 119.38 166.37 90)
+			(at 243.84 128.27 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12019,6 +9744,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Measurement_Power_AC:Ceramic_Cap_SMD_47pF_50V")
+		(at 125.73 62.23 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e21a05c-8a43-4a69-b117-e0e168ceba3e")
+		(property "Reference" "C5"
+			(at 129.54 57.1499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47pF/50V"
+			(at 129.54 59.6899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Measure_Power_AC:Ceramic_Cap_0603"
+			(at 120.65 62.484 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.vn/datasheet/2/40/KYOCERA_AutoMLCCKAM-3106308.pdf"
+			(at 120.65 61.976 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10%, 0603 (1608 Metric)"
+			(at 120.142 61.214 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply name" "Thegioiic"
+			(at 120.65 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply part number" "Tụ Gốm 0603 47pF 50V"
+			(at 120.142 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply URL" "https://www.thegioiic.com/tu-gom-0603-47pf-50v"
+			(at 120.65 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d436cf0f-2e63-43fd-ade4-6ae5765623bc")
+		)
+		(pin "1"
+			(uuid "93c7e115-d0d6-42ba-81a7-8a8d4a53db83")
+		)
+		(instances
+			(project "Smart_Switch"
+				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 115.57 73.66 0)
 		(unit 1)
@@ -12030,7 +9870,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84fb0d69-05b6-46d6-a869-560d2cf83653")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR07"
 			(at 115.57 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -12090,7 +9930,7 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "#PWR08")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -12108,7 +9948,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "867f4ce1-1f45-4cc9-8e9e-94c6bd9d228b")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR06"
 			(at 86.36 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -12168,7 +10008,7 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "#PWR012")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -12264,7 +10104,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d52c58c-03a9-4107-90d1-042c1d7a064d")
-		(property "Reference" "R3"
+		(property "Reference" "R2"
 			(at 83.82 54.6099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12405,7 +10245,7 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "R3")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -12423,7 +10263,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "913ab0c9-072e-463f-b2e3-ad94e75f0817")
-		(property "Reference" "C2"
+		(property "Reference" "C1"
 			(at 52.07 43.1799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12564,7 +10404,7 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "C2")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -12572,7 +10412,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 38.1 173.99 0)
+		(at 180.34 134.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12580,10 +10420,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9156c51c-ba0f-44f7-8aa4-33e85aa6f8ec")
-		(property "Reference" "#PWR024"
-			(at 38.1 180.34 0)
+		(property "Reference" "#PWR014"
+			(at 180.34 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12594,7 +10433,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 179.07 0)
+			(at 179.07 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12604,7 +10443,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 173.99 0)
+			(at 180.34 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12615,7 +10454,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 173.99 0)
+			(at 180.34 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12626,7 +10465,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 38.1 173.99 0)
+			(at 180.34 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12642,7 +10481,7 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "#PWR024")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -12835,243 +10674,6 @@
 		)
 	)
 	(symbol
-		(lib_id "DongKhoa:Ceramic_Cap_SMD_1uF_16V")
-		(at 140.97 138.43 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "938d6fed-fc02-4bc1-a89d-28158aded286")
-		(property "Reference" "C11"
-			(at 144.78 133.3499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1uF/16V"
-			(at 144.78 135.8899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Measure_Power_AC:Ceramic_Cap_0603"
-			(at 135.89 138.684 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.vn/datasheet/2/40/KYOCERA_AutoMLCCKAM-3106308.pdf"
-			(at 135.89 138.176 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10%, 0603 (1608 Metric)"
-			(at 135.382 137.414 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supply name" "Thegioiic"
-			(at 135.89 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supply part number" "Tụ Gốm 0603 1uF 16V"
-			(at 135.382 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supply URL" "https://www.thegioiic.com/tu-gom-0603-1uf-16v"
-			(at 135.89 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 140.97 138.43 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 140.97 138.43 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplt part number" ""
-			(at 140.97 138.43 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sypply name" ""
-			(at 140.97 138.43 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e12d821a-25ab-47f4-b21a-219fa9f76e8b")
-		)
-		(pin "1"
-			(uuid "927ebb5b-eb8b-4bfb-bf19-4bab1dc03ea8")
-		)
-		(instances
-			(project "Smart_Switch"
-				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 220.98 132.08 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "93b21bae-df79-4dde-a419-01b5bdf6bd31")
-		(property "Reference" "#PWR015"
-			(at 220.98 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 220.98 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 220.98 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 220.98 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 220.98 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3472c724-7d73-47e8-a627-3f78d03e00ce")
-		)
-		(instances
-			(project "Smart_Switch"
-				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Measurement_Power_AC:Ceramic_Cap_SMD_10nF_50V")
 		(at 142.24 62.23 90)
 		(unit 1)
@@ -13083,7 +10685,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "989dd85d-42fc-4d52-bf54-7009d8d5da6b")
-		(property "Reference" "C8"
+		(property "Reference" "C6"
 			(at 146.05 57.1499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13224,7 +10826,122 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "C8")
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Measurement_Power_AC:Ceramic_Cap_SMD_0603_1nF_50V")
+		(at 106.68 57.15 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "991f7a3f-f9c6-4f70-8fb5-c10020b68d03")
+		(property "Reference" "C4"
+			(at 110.49 53.3399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1nF/50V"
+			(at 110.49 55.8799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Measure_Power_AC:Ceramic_Cap_0603"
+			(at 101.6 57.404 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.vn/datasheet/2/40/KYOCERA_AutoMLCCKAM-3106308.pdf"
+			(at 101.6 56.896 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10%, 0603 (1608 Metric)"
+			(at 101.092 56.134 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply name" "Thegioiic"
+			(at 101.6 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply part number" "Tụ Gốm 0603 1nF 50V"
+			(at 101.092 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply URL" "https://www.thegioiic.com/tu-gom-0603-1nf-50v"
+			(at 101.6 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "89134db7-80e1-4523-8afa-2e47d78cff57")
+		)
+		(pin "2"
+			(uuid "870605c3-81c3-4b87-bfb8-abb0b0c700ad")
+		)
+		(instances
+			(project "Smart_Switch"
+				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -13378,7 +11095,7 @@
 	)
 	(symbol
 		(lib_id "DongKhoa:LED_0805")
-		(at 231.14 120.65 180)
+		(at 132.08 124.46 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13389,7 +11106,7 @@
 		(fields_autoplaced yes)
 		(uuid "a3356350-95b0-4259-9b70-e1d11ec2ac0d")
 		(property "Reference" "D2"
-			(at 232.7275 113.03 0)
+			(at 133.6675 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13399,7 +11116,7 @@
 			)
 		)
 		(property "Value" "LED_0805"
-			(at 232.7275 115.57 0)
+			(at 133.6675 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13409,7 +11126,7 @@
 			)
 		)
 		(property "Footprint" "Measure_Power_AC:LED_0805"
-			(at 234.95 125.73 0)
+			(at 135.89 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13420,7 +11137,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.046 125.73 0)
+			(at 141.986 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13431,7 +11148,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 230.886 125.476 0)
+			(at 131.826 129.286 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13442,7 +11159,7 @@
 			)
 		)
 		(property "Supply name" "Thegioiic"
-			(at 231.902 125.984 0)
+			(at 132.842 129.794 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13453,7 +11170,7 @@
 			)
 		)
 		(property "Supply part number" "LED Xanh Lá 0805 Dán SMD Trong Suốt"
-			(at 230.632 125.476 0)
+			(at 131.572 129.286 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13464,7 +11181,7 @@
 			)
 		)
 		(property "Supply URL" "https://www.thegioiic.com/led-xanh-la-0805-dan-smd-trong-suot"
-			(at 231.902 125.984 0)
+			(at 132.842 129.794 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13475,7 +11192,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 231.14 120.65 0)
+			(at 132.08 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13486,7 +11203,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 231.14 120.65 0)
+			(at 132.08 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13497,7 +11214,7 @@
 			)
 		)
 		(property "Supplt part number" ""
-			(at 231.14 120.65 0)
+			(at 132.08 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13508,7 +11225,7 @@
 			)
 		)
 		(property "Sypply name" ""
-			(at 231.14 120.65 0)
+			(at 132.08 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13545,7 +11262,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a782d05e-b922-43c4-aabc-3b4874657c21")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR010"
 			(at 121.92 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -13606,7 +11323,7 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "#PWR02")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -13615,7 +11332,7 @@
 	(symbol
 		(lib_name "MountingHole_1")
 		(lib_id "DongKhoa:MountingHole")
-		(at 45.72 166.37 0)
+		(at 187.96 127 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13625,7 +11342,7 @@
 		(dnp no)
 		(uuid "a8951753-4e51-4411-b45e-8f6278999910")
 		(property "Reference" "H1"
-			(at 48.26 165.0999 0)
+			(at 190.5 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13636,7 +11353,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 48.26 167.6399 0)
+			(at 190.5 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13647,7 +11364,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
-			(at 45.72 166.37 0)
+			(at 187.96 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13658,7 +11375,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 166.37 0)
+			(at 187.96 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13669,7 +11386,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 45.72 166.37 0)
+			(at 187.96 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13680,7 +11397,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 45.72 166.37 0)
+			(at 187.96 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13691,7 +11408,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 45.72 166.37 0)
+			(at 187.96 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13702,7 +11419,7 @@
 			)
 		)
 		(property "Supplt part number" ""
-			(at 45.72 166.37 0)
+			(at 187.96 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13713,7 +11430,7 @@
 			)
 		)
 		(property "Sypply name" ""
-			(at 45.72 166.37 0)
+			(at 187.96 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13733,8 +11450,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 140.97 165.1 0)
+		(lib_id "Measurement_Power_AC:Res_10K_0603_1%")
+		(at 229.87 58.42 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13743,9 +11460,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "aea47215-151b-4de6-ba4a-8f7294169cd4")
-		(property "Reference" "#PWR023"
-			(at 140.97 168.91 0)
+		(uuid "aa16e140-1e96-49d3-b471-dfe143588fec")
+		(property "Reference" "R6"
+			(at 232.41 53.3399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K/1%/1_10W"
+			(at 232.41 55.8799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Measure_Power_AC:Res_0603"
+			(at 218.44 18.542 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13755,18 +11494,8 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 140.97 160.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 165.1 0)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/esr-e.pdf"
+			(at 229.108 18.796 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13776,8 +11505,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 140.97 165.1 0)
+		(property "Description" "Res 10 KOhm 0603 1%"
+			(at 223.012 18.034 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13787,8 +11516,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 140.97 165.1 0)
+		(property "Supply name" "Thegioiic"
+			(at 217.424 18.288 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13797,14 +11526,83 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "Supply part number" "Điện Trở 10 KOhm 0603 1%"
+			(at 216.408 18.542 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply URL" "https://www.thegioiic.com/dien-tro-10-kohm-0603-1-"
+			(at 209.296 17.272 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 229.87 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 229.87 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplt part number" ""
+			(at 229.87 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sypply name" ""
+			(at 229.87 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "78b4a8aa-d63b-468a-96d7-5664f47b0972")
 		)
 		(pin "1"
-			(uuid "0c57dc44-e09c-467f-ad6a-e4d735cfff59")
+			(uuid "86e95729-58bf-4b34-a4df-bdedc3f439d8")
 		)
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "#PWR023")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -13822,7 +11620,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b18916df-4b8d-414d-9d8b-9052d8c8e486")
-		(property "Reference" "C1"
+		(property "Reference" "C7"
 			(at 163.83 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13961,15 +11759,15 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "C1")
+					(reference "C7")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 156.21 142.24 0)
+		(lib_id "Measurement_Power_AC:Res_3K_0603_1%")
+		(at 229.87 76.2 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13978,9 +11776,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b64168a2-f2e2-4d04-9558-a7cd70496bd3")
-		(property "Reference" "#PWR019"
-			(at 156.21 148.59 0)
+		(uuid "b5bd0c07-e4cb-42d5-baee-8faf7d4e8b33")
+		(property "Reference" "R7"
+			(at 232.41 71.1199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "3K/1%/1_10W"
+			(at 232.41 73.6599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Measure_Power_AC:Res_0603"
+			(at 245.364 57.912 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13990,18 +11810,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 156.21 147.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 142.24 0)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/esr-e.pdf"
+			(at 245.11 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14011,8 +11821,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 156.21 142.24 0)
+		(property "Description" "Res 3 KOhm 0603 1%"
+			(at 245.872 62.484 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14022,8 +11832,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 142.24 0)
+		(property "Supply name" "Thegioiic"
+			(at 245.618 56.896 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14032,14 +11842,39 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "Supply part number" "Điện Trở 3 KOhm 0603 1%"
+			(at 245.364 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply URL" "https://www.thegioiic.com/dien-tro-3-kohm-0603-1-"
+			(at 246.634 48.768 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1b8b5f77-d0a7-496b-8806-1988597dc6cd")
 		)
 		(pin "1"
-			(uuid "5fd64676-8ddc-496a-9403-0909149d8590")
+			(uuid "183956b0-2912-4959-a680-b311f0d767df")
 		)
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "#PWR019")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -14057,7 +11892,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b68c4630-3f82-4d84-8c5f-c7f29af1060d")
-		(property "Reference" "C3"
+		(property "Reference" "C2"
 			(at 68.58 43.1799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14198,7 +12033,7 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "C3")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -14216,7 +12051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8cf8cc0-a816-40e7-84a0-f87c0e3b3eb5")
-		(property "Reference" "C5"
+		(property "Reference" "C9"
 			(at 217.17 48.2599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14357,7 +12192,7 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "C5")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -14375,7 +12210,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b968fcce-a2d1-496a-ab3d-4b7450efd23e")
-		(property "Reference" "C9"
+		(property "Reference" "C3"
 			(at 90.17 132.0799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14516,323 +12351,7 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DongKhoa:Res_1K_0603_1%")
-		(at 243.84 134.62 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bcc7e080-5917-432c-a791-62718cc678a8")
-		(property "Reference" "R8"
-			(at 247.65 128.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K/1%/1_10W"
-			(at 247.65 130.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Measure_Power_AC:Res_0603"
-			(at 262.128 150.114 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/esr-e.pdf"
-			(at 251.46 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Res 1 KOhm 0603 1%"
-			(at 257.556 150.622 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supply name" "Thegioiic"
-			(at 263.144 150.368 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supply part number" "Điện Trở 1 KOhm 0603 1%"
-			(at 264.16 150.114 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supply URL" "https://www.thegioiic.com/dien-tro-1-kohm-0603-1-"
-			(at 271.272 151.384 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 243.84 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 243.84 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplt part number" ""
-			(at 243.84 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sypply name" ""
-			(at 243.84 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fd05c4ed-0af5-435f-9791-871661029da9")
-		)
-		(pin "2"
-			(uuid "696edf15-33a7-4fc6-8428-a2b4143098e1")
-		)
-		(instances
-			(project "Smart_Switch"
-				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DongKhoa:Ceramic_Cap_SMD_1uF_16V")
-		(at 167.64 138.43 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bf900f7b-8047-4d7c-9f04-2a17498bc406")
-		(property "Reference" "C12"
-			(at 171.45 133.3499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1uF/16V"
-			(at 171.45 135.8899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Measure_Power_AC:Ceramic_Cap_0603"
-			(at 162.56 138.684 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.vn/datasheet/2/40/KYOCERA_AutoMLCCKAM-3106308.pdf"
-			(at 162.56 138.176 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10%, 0603 (1608 Metric)"
-			(at 162.052 137.414 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supply name" "Thegioiic"
-			(at 162.56 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supply part number" "Tụ Gốm 0603 1uF 16V"
-			(at 162.052 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supply URL" "https://www.thegioiic.com/tu-gom-0603-1uf-16v"
-			(at 162.56 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 167.64 138.43 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 167.64 138.43 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplt part number" ""
-			(at 167.64 138.43 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sypply name" ""
-			(at 167.64 138.43 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "34910937-c6ed-46a5-b75b-cb57aee5a40a")
-		)
-		(pin "1"
-			(uuid "f8c46563-9ecd-425e-9491-204298c61b5a")
-		)
-		(instances
-			(project "Smart_Switch"
-				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "C12")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -14840,7 +12359,7 @@
 	)
 	(symbol
 		(lib_id "DongKhoa:TestPoint")
-		(at 119.38 179.07 90)
+		(at 243.84 140.97 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14850,8 +12369,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8669dae-921f-46e3-854a-a1c8a53a34f4")
-		(property "Reference" "TP3"
-			(at 116.078 173.99 90)
+		(property "Reference" "TP2"
+			(at 240.538 135.89 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14861,7 +12380,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 116.078 176.53 90)
+			(at 240.538 138.43 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14871,7 +12390,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 119.38 173.99 0)
+			(at 243.84 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14882,7 +12401,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 173.99 0)
+			(at 243.84 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14893,7 +12412,7 @@
 			)
 		)
 		(property "Description" "TestPoint_Pad_3.0x3.0mm"
-			(at 119.38 179.07 0)
+			(at 243.84 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14904,7 +12423,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 119.38 179.07 90)
+			(at 243.84 140.97 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14915,7 +12434,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 119.38 179.07 90)
+			(at 243.84 140.97 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14926,7 +12445,7 @@
 			)
 		)
 		(property "Supplt part number" ""
-			(at 119.38 179.07 90)
+			(at 243.84 140.97 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14937,7 +12456,7 @@
 			)
 		)
 		(property "Sypply name" ""
-			(at 119.38 179.07 90)
+			(at 243.84 140.97 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14953,7 +12472,7 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "TP3")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -14962,7 +12481,7 @@
 	(symbol
 		(lib_name "MountingHole_3")
 		(lib_id "DongKhoa:MountingHole")
-		(at 45.72 177.8 0)
+		(at 187.96 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14972,8 +12491,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8c76ec5-681f-4331-bf66-0110ec969c1c")
-		(property "Reference" "H3"
-			(at 48.26 176.5299 0)
+		(property "Reference" "H2"
+			(at 190.5 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14984,7 +12503,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 48.26 179.0699 0)
+			(at 190.5 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14995,7 +12514,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
-			(at 45.72 177.8 0)
+			(at 187.96 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15006,7 +12525,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 177.8 0)
+			(at 187.96 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15017,7 +12536,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 45.72 177.8 0)
+			(at 187.96 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15028,7 +12547,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 45.72 177.8 0)
+			(at 187.96 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15039,7 +12558,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 45.72 177.8 0)
+			(at 187.96 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15050,7 +12569,7 @@
 			)
 		)
 		(property "Supplt part number" ""
-			(at 45.72 177.8 0)
+			(at 187.96 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15061,7 +12580,7 @@
 			)
 		)
 		(property "Sypply name" ""
-			(at 45.72 177.8 0)
+			(at 187.96 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15074,7 +12593,7 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "H3")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -15092,7 +12611,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ccf93ef9-c284-4dcb-84a1-3398e5cb480e")
-		(property "Reference" "C4"
+		(property "Reference" "C8"
 			(at 200.66 48.2599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15233,7 +12752,7 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "C4")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -15241,7 +12760,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 121.92 165.1 0)
+		(at 246.38 127 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15251,8 +12770,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce9ab842-e4ef-4280-8bc6-ae1e1e09c025")
-		(property "Reference" "#PWR022"
-			(at 121.92 168.91 0)
+		(property "Reference" "#PWR018"
+			(at 246.38 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15263,7 +12782,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 121.92 160.02 0)
+			(at 246.38 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15273,7 +12792,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 165.1 0)
+			(at 246.38 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15284,7 +12803,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 165.1 0)
+			(at 246.38 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15295,7 +12814,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 121.92 165.1 0)
+			(at 246.38 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15311,7 +12830,7 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "#PWR022")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -15319,7 +12838,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 220.98 146.05 0)
+		(at 121.92 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15328,8 +12847,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d1245dac-389e-4b94-8a8f-6b4a514c0f98")
-		(property "Reference" "#PWR020"
-			(at 220.98 149.86 0)
+		(property "Reference" "#PWR09"
+			(at 121.92 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15340,7 +12859,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 222.504 141.986 0)
+			(at 123.444 134.366 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15350,7 +12869,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 146.05 0)
+			(at 121.92 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15361,7 +12880,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 146.05 0)
+			(at 121.92 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15372,7 +12891,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 220.98 146.05 0)
+			(at 121.92 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15388,7 +12907,7 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "#PWR020")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -15406,7 +12925,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d74c0652-9e00-4d97-8e0a-9c7642a8e86a")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR015"
 			(at 187.96 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -15466,7 +12985,7 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "#PWR05")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -15474,319 +12993,7 @@
 	)
 	(symbol
 		(lib_id "DongKhoa:LED_0805")
-		(at 231.14 134.62 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e1b59cdd-43d4-49a9-b032-18736d4edcf0")
-		(property "Reference" "D4"
-			(at 232.7275 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED_0805"
-			(at 232.7275 129.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Measure_Power_AC:LED_0805"
-			(at 234.95 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.046 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 230.886 139.446 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supply name" "Thegioiic"
-			(at 231.902 139.954 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supply part number" "LED Xanh Lá 0805 Dán SMD Trong Suốt"
-			(at 230.632 139.446 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supply URL" "https://www.thegioiic.com/led-xanh-la-0805-dan-smd-trong-suot"
-			(at 231.902 139.954 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 231.14 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 231.14 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplt part number" ""
-			(at 231.14 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sypply name" ""
-			(at 231.14 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b91df660-f298-42c5-b213-f000f567ca56")
-		)
-		(pin "2"
-			(uuid "08323864-0332-48af-8dce-a5aa1cd35cc4")
-		)
-		(instances
-			(project "Smart_Switch"
-				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 191.77 127 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "eb315c60-154a-487f-8ee3-64f763d8c18e")
-		(property "Reference" "#PWR013"
-			(at 191.77 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 193.294 122.936 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 191.77 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "534d0cb3-2f70-4c22-a327-ff4ffb683ed0")
-		)
-		(instances
-			(project "Smart_Switch"
-				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 118.11 128.27 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ee2f5f8a-bb1c-455c-9516-f8319bd3571b")
-		(property "Reference" "#PWR014"
-			(at 118.11 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 118.11 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 118.11 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1834f3c2-9375-42ec-bf3e-77f3726442e4")
-		)
-		(instances
-			(project "Smart_Switch"
-				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DongKhoa:LED_0805")
-		(at 231.14 148.59 180)
+		(at 132.08 140.97 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15796,8 +13003,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f172c739-abff-4ef3-b0d7-a63982eb5a6a")
-		(property "Reference" "D5"
-			(at 232.7275 140.97 0)
+		(property "Reference" "D3"
+			(at 133.6675 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15807,7 +13014,7 @@
 			)
 		)
 		(property "Value" "LED_0805"
-			(at 232.7275 143.51 0)
+			(at 133.6675 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15817,7 +13024,7 @@
 			)
 		)
 		(property "Footprint" "Measure_Power_AC:LED_0805"
-			(at 234.95 153.67 0)
+			(at 135.89 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15828,7 +13035,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.046 153.67 0)
+			(at 141.986 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15839,7 +13046,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 230.886 153.416 0)
+			(at 131.826 145.796 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15850,7 +13057,7 @@
 			)
 		)
 		(property "Supply name" "Thegioiic"
-			(at 231.902 153.924 0)
+			(at 132.842 146.304 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15861,7 +13068,7 @@
 			)
 		)
 		(property "Supply part number" "LED Xanh Lá 0805 Dán SMD Trong Suốt"
-			(at 230.632 153.416 0)
+			(at 131.572 145.796 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15872,7 +13079,7 @@
 			)
 		)
 		(property "Supply URL" "https://www.thegioiic.com/led-xanh-la-0805-dan-smd-trong-suot"
-			(at 231.902 153.924 0)
+			(at 132.842 146.304 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15883,7 +13090,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 231.14 148.59 0)
+			(at 132.08 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15894,7 +13101,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 231.14 148.59 0)
+			(at 132.08 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15905,7 +13112,7 @@
 			)
 		)
 		(property "Supplt part number" ""
-			(at 231.14 148.59 0)
+			(at 132.08 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15916,7 +13123,7 @@
 			)
 		)
 		(property "Sypply name" ""
-			(at 231.14 148.59 0)
+			(at 132.08 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15935,7 +13142,7 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "D5")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -15953,7 +13160,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f23270d4-4933-493c-a441-778dad432649")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR011"
 			(at 142.24 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -16013,7 +13220,7 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "#PWR07")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -16021,7 +13228,7 @@
 	)
 	(symbol
 		(lib_id "DongKhoa:Res_2.49K_0603_1%")
-		(at 243.84 120.65 0)
+		(at 144.78 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16031,8 +13238,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4921cfb-496c-49a4-9b97-e86fddcf1419")
-		(property "Reference" "R7"
-			(at 247.65 114.3 0)
+		(property "Reference" "R4"
+			(at 148.59 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16042,7 +13249,7 @@
 			)
 		)
 		(property "Value" "2.49K/1%/1_10W"
-			(at 247.65 116.84 0)
+			(at 148.59 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16052,7 +13259,7 @@
 			)
 		)
 		(property "Footprint" "Measure_Power_AC:Res_0603"
-			(at 262.128 136.144 0)
+			(at 163.068 139.954 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16063,7 +13270,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 135.89 0)
+			(at 152.4 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16074,7 +13281,7 @@
 			)
 		)
 		(property "Description" "Res 2.49 KOhm 0603 1%"
-			(at 257.556 136.652 0)
+			(at 158.496 140.462 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16085,7 +13292,7 @@
 			)
 		)
 		(property "Supply name" "Thegioiic"
-			(at 263.144 136.398 0)
+			(at 164.084 140.208 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16096,7 +13303,7 @@
 			)
 		)
 		(property "Supply part number" "Điện Trở 2.49 KOhm 0603 1%"
-			(at 264.16 136.144 0)
+			(at 165.1 139.954 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16107,7 +13314,7 @@
 			)
 		)
 		(property "Supply URL" "https://www.thegioiic.com/dien-tro-2-49-kohm-0603-1-"
-			(at 271.272 137.414 0)
+			(at 172.212 141.224 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16118,7 +13325,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 243.84 120.65 0)
+			(at 144.78 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16129,7 +13336,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 243.84 120.65 0)
+			(at 144.78 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16140,7 +13347,7 @@
 			)
 		)
 		(property "Supplt part number" ""
-			(at 243.84 120.65 0)
+			(at 144.78 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16151,7 +13358,7 @@
 			)
 		)
 		(property "Sypply name" ""
-			(at 243.84 120.65 0)
+			(at 144.78 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16170,166 +13377,7 @@
 		(instances
 			(project "Smart_Switch"
 				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DongKhoa:Ceramic_Cap_SMD_0603_10uF_16V")
-		(at 184.15 138.43 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f5622cd7-a633-4720-9725-fcd811784117")
-		(property "Reference" "C13"
-			(at 187.96 133.3499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10uF/16V"
-			(at 187.96 135.8899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Measure_Power_AC:Ceramic_Cap_0603"
-			(at 179.07 138.684 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.vn/datasheet/2/40/KYOCERA_AutoMLCCKAM-3106308.pdf"
-			(at 179.07 138.176 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10%, 0603 (1608 Metric)"
-			(at 178.562 137.414 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supply name" "Thegioiic"
-			(at 179.07 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supply part number" "Tụ Gốm 0603 10uF 16V"
-			(at 178.562 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supply URL" "https://www.thegioiic.com/tu-gom-0603-10uf-16v"
-			(at 179.07 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 184.15 138.43 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 184.15 138.43 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplt part number" ""
-			(at 184.15 138.43 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sypply name" ""
-			(at 184.15 138.43 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c736c296-028b-49bd-858c-25ccffea04fa")
-		)
-		(pin "1"
-			(uuid "d2ddb05f-052f-4c96-8370-4ab64d6b5430")
-		)
-		(instances
-			(project "Smart_Switch"
-				(path "/928e7aef-5d01-47b2-8dd9-00c031b8cb29/0ff289fa-d23f-4175-b2f8-a37880cc06c5"
-					(reference "C13")
+					(reference "R4")
 					(unit 1)
 				)
 			)
